@@ -177,9 +177,11 @@ export default function Home() {
                       <span
                         key={skill.name}
                         className={styles.badge}
-                        style={{
-                          "--badge-color": skill.color,
-                        }}
+                        style={
+                          {
+                            "--badge-color": skill.color,
+                          } as React.CSSProperties
+                        }
                       >
                         <span className={styles.badgeDot} />
                         {skill.name}
