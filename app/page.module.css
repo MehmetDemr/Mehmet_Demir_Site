@@ -1,4 +1,3 @@
-
 /*  Layout Utility  */
 .container {
   width: 100%;
@@ -15,7 +14,7 @@
 /*  Hero Section  */
 .hero {
   position: relative;
-  padding: 180px 0 120px;
+  padding: 120px 0 100px;
   background-color: var(--bg-soft);
   overflow: hidden;
   display: flex;
@@ -46,13 +45,30 @@
   filter: blur(50px);
 }
 
-.heroInner {
+/* Side-by-side layout: text left, monitor right */
+.heroLayout {
   position: relative;
   z-index: 2;
-  text-align: center;
-  max-width: 800px;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  width: 100%;
 }
 
+.heroInner {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}
+
+.heroMonitor {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  Hero Text  */
 .heroTag {
   display: inline-flex;
   align-items: center;
@@ -73,10 +89,16 @@
   background-color: var(--accent);
   border-radius: 50%;
   box-shadow: 0 0 10px var(--accent);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
 }
 
 .heroName {
-  font-size: 64px;
+  font-size: 56px;
   line-height: 1.1;
   margin: 0 0 20px;
   color: var(--text);
@@ -87,23 +109,21 @@
 }
 
 .heroRole {
-  font-size: 20px;
+  font-size: 16px;
   color: var(--text-soft);
   font-family: var(--font-body);
   font-weight: 400;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
 .heroDesc {
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 17px;
+  line-height: 1.7;
   color: var(--text-soft);
-  margin-bottom: 48px;
-  max-width: 650px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 40px;
+  max-width: 560px;
 }
 
 .hl {
@@ -115,17 +135,18 @@
 .heroBtns {
   display: flex;
   gap: 16px;
-  justify-content: center;
 }
 
 .btnPrimary {
   background-color: var(--accent);
-  color: #1f2329; /* Dark bg color for contrast */
+  color: #1f2329;
   padding: 14px 28px;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
   transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .btnPrimary:hover {
@@ -142,6 +163,8 @@
   font-size: 16px;
   border: 1px solid var(--border);
   transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .btnSecondary:hover {
@@ -149,19 +172,19 @@
   border-color: var(--accent);
 }
 
-/* Hero Stats Bar */
+/*  Stats Bar  */
 .heroStats {
   position: relative;
   z-index: 2;
-  margin-top: 80px;
+  margin-top: 72px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 12px;
   display: flex;
   padding: 24px 0;
   width: 100%;
-  max-width: 900px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  max-width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .statItem {
@@ -185,10 +208,121 @@
 }
 
 .statLabel {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--text-soft);
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+
+/*  Monitor ── */
+.monitorWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.monitorOuter {
+  width: 320px;
+  background: #2a2d35;
+  border-radius: 14px;
+  padding: 10px 10px 0 10px;
+  border: 2px solid #3a3d47;
+}
+
+.screen {
+  background: #0d1117;
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 190px;
+  padding: 16px;
+}
+
+.menubar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.mbDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.mb1 { background: #ff5f57; }
+.mb2 { background: #febc2e; }
+.mb3 { background: #28c840; }
+
+.codeArea {
+  font-family: var(--font-mono, monospace);
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.codeLine {
+  display: block;
+}
+
+.lineNum {
+  color: #3d4450;
+  margin-right: 10px;
+  user-select: none;
+}
+
+.kw  { color: #ff7b72; }
+.fn  { color: #d2a8ff; }
+.str { color: #a5d6ff; }
+.op  { color: #79c0ff; }
+.plain { color: #e6edf3; }
+
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 14px;
+  background: #d6b36a;
+  vertical-align: middle;
+  animation: blink 1s infinite;
+  margin-left: 1px;
+}
+
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+.outputLine {
+  display: none;
+  color: #3fb950;
+  font-size: 12px;
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 0.5px solid #21262d;
+  font-family: var(--font-mono, monospace);
+}
+
+.outputPrompt {
+  color: #3d4450;
+}
+
+.standNeck {
+  width: 36px;
+  height: 26px;
+  background: #2a2d35;
+  margin: 0 auto;
+  border-radius: 0 0 4px 4px;
+  border-left: 2px solid #3a3d47;
+  border-right: 2px solid #3a3d47;
+  border-bottom: 2px solid #3a3d47;
+}
+
+.standBase {
+  width: 110px;
+  height: 10px;
+  background: #2a2d35;
+  margin: 0 auto;
+  border-radius: 0 0 8px 8px;
+  border: 2px solid #3a3d47;
+  border-top: none;
 }
 
 /*  Section Headers  */
@@ -200,7 +334,7 @@
 
 .sectionTag {
   color: var(--accent);
-  font-size: 14px;
+  font-size: 32px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -220,11 +354,12 @@
   line-height: 1.6;
 }
 
-/*  Skills Section  */
+/*  Skills  */
 .skillsGrid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 32px;
+
 }
 
 .skillCard {
@@ -252,7 +387,7 @@
 .skillIndex {
   font-size: 20px;
   font-weight: 700;
-  color: var(--border); /* Subtle index */
+  color: var(--border);
   font-family: var(--font-heading);
 }
 
@@ -269,7 +404,7 @@
 }
 
 .badge {
-  --badge-color: #8b949e; /* Default */
+  --badge-color: #8b949e;
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -296,7 +431,7 @@
   background-color: var(--badge-color);
 }
 
-/*  Experience Section (Timeline)  */
+/*  Experience Timeline  */
 .timeline {
   position: relative;
   max-width: 800px;
@@ -329,7 +464,7 @@
   border: 2px solid var(--border);
   position: relative;
   z-index: 2;
-  margin-top: 6px; /* Align with title */
+  margin-top: 6px;
 }
 
 .tlDotActive {
@@ -398,7 +533,7 @@
   color: var(--text);
 }
 
-/*  Education Section  */
+/*  Education  */
 .eduGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -428,6 +563,7 @@
   justify-content: center;
   border-radius: 8px;
   border: 1px solid var(--border);
+  flex-shrink: 0;
 }
 
 .eduSchool {
@@ -442,7 +578,7 @@
   margin: 0;
 }
 
-/*  Contact Section  */
+/*  Contact ── */
 .contactBox {
   background: var(--bg-soft);
   border: 1px solid var(--border);
@@ -465,6 +601,7 @@
   font-size: 18px;
   color: var(--text-soft);
   transition: color 0.2s ease;
+  text-decoration: none;
 }
 
 .contactLink:hover {
@@ -476,6 +613,115 @@
   font-weight: 700;
 }
 
+/*  Responsive  */
+
+@media (max-width: 1024px) {
+  .heroLayout {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 48px;
+  }
+
+  .heroInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heroDesc {
+    max-width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .heroBtns {
+    justify-content: center;
+  }
+
+  .monitorOuter {
+    width: 300px;
+  }
+
+  .skillsGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+}
+
+/* About Accordion */
+.accordionWrap {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.accordionItem {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: border-color 0.2s ease;
+}
+
+.accordionItem.accordionOpen {
+  border-color: rgba(214, 179, 106, 0.4);
+}
+
+.accordionTrigger {
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 22px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  text-align: left;
+}
+
+.accordionTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+  font-family: var(--font-heading);
+}
+
+.accordionIcon {
+  font-size: 22px;
+  color: var(--accent);
+  font-weight: 400;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.accordionBody {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.35s ease;
+  padding: 0 28px;
+}
+
+.accordionOpen .accordionBody {
+  max-height: 200px;
+  padding: 0 28px 22px;
+}
+
+.accordionContent {
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--text-soft);
+  margin: 0;
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+}
+
+/* Mobile */
 @media (max-width: 768px) {
   .container {
     padding: 0 18px;
@@ -486,7 +732,7 @@
   }
 
   .hero {
-    padding: 140px 0 80px;
+    padding: 100px 0 72px;
   }
 
   .heroGrid {
@@ -495,9 +741,8 @@
   }
 
   .heroGlow {
-    width: 420px;
-    height: 420px;
-    filter: blur(40px);
+    width: 320px;
+    height: 320px;
   }
 
   .heroTag {
@@ -507,21 +752,20 @@
   }
 
   .heroName {
-    font-size: 42px;
-    line-height: 1.12;
-    margin-bottom: 16px;
+    font-size: 36px;
+    margin-bottom: 14px;
   }
 
   .heroRole {
-    font-size: 15px;
-    letter-spacing: 0.08em;
-    margin-bottom: 22px;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    margin-bottom: 18px;
   }
 
   .heroDesc {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.75;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
   }
 
   .heroBtns {
@@ -529,8 +773,6 @@
     align-items: stretch;
     gap: 12px;
     width: 100%;
-    max-width: 420px;
-    margin: 0 auto;
   }
 
   .btnPrimary,
@@ -541,15 +783,29 @@
     font-size: 15px;
   }
 
+  /* Smaller monitor on mobile */
+  .monitorOuter {
+    width: 260px;
+  }
+
+  .screen {
+    min-height: 160px;
+    padding: 12px;
+  }
+
+  .codeArea {
+    font-size: 11px;
+  }
+
   .heroStats {
-    margin-top: 52px;
+    margin-top: 48px;
     flex-direction: column;
     padding: 0;
     overflow: hidden;
   }
 
   .statItem {
-    padding: 20px 16px;
+    padding: 18px 16px;
   }
 
   .statDivider {
@@ -562,12 +818,12 @@
   }
 
   .statLabel {
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: 0.08em;
   }
 
   .sectionHeader {
-    margin: 0 auto 42px;
+    margin: 0 auto 40px;
   }
 
   .sectionTag {
@@ -576,7 +832,7 @@
   }
 
   .sectionTitle {
-    font-size: 34px;
+    font-size: 32px;
     margin-bottom: 14px;
   }
 
@@ -587,17 +843,17 @@
 
   .skillsGrid {
     grid-template-columns: 1fr;
-    gap: 18px;
+    gap: 16px;
   }
 
   .skillCard {
-    padding: 24px 20px;
+    padding: 22px 18px;
   }
 
   .skillCardTop {
     gap: 12px;
-    margin-bottom: 18px;
-    padding-bottom: 14px;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
   }
 
   .skillIndex {
@@ -614,7 +870,7 @@
 
   .badge {
     font-size: 12px;
-    padding: 6px 10px;
+    padding: 5px 10px;
   }
 
   .timeline {
@@ -622,22 +878,22 @@
   }
 
   .tlItem {
-    gap: 16px;
+    gap: 14px;
     padding-bottom: 28px;
   }
 
   .tlContent {
-    padding: 18px;
+    padding: 16px;
   }
 
   .tlTop {
     flex-direction: column;
-    gap: 10px;
-    margin-bottom: 10px;
+    gap: 8px;
+    margin-bottom: 8px;
   }
 
   .tlCompany {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.35;
   }
 
@@ -646,32 +902,31 @@
   }
 
   .tlRole {
-    font-size: 15px;
-    margin-bottom: 14px;
+    font-size: 14px;
+    margin-bottom: 12px;
   }
 
   .tlMeta {
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
     font-size: 13px;
     padding-top: 10px;
   }
 
   .eduGrid {
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: 14px;
   }
 
   .eduCard {
-    padding: 20px;
-    gap: 16px;
+    padding: 18px;
+    gap: 14px;
   }
 
   .eduIcon {
     width: 44px;
     height: 44px;
-    font-size: 20px;
-    flex-shrink: 0;
+    font-size: 19px;
   }
 
   .eduSchool {
@@ -695,10 +950,28 @@
   }
 
   .contactLink {
-    font-size: 16px;
+    font-size: 15px;
     gap: 10px;
     word-break: break-word;
   }
+
+    .accordionTrigger {
+    padding: 18px 20px;
+  }
+
+  .accordionTitle {
+    font-size: 16px;
+  }
+
+  .accordionBody {
+    padding: 0 20px;
+  }
+
+  .accordionOpen .accordionBody {
+    padding: 0 20px 18px;
+  }
+
+  .accordionContent {
+    font-size: 15px;
+  }
 }
-
-
