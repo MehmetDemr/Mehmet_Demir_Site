@@ -12,7 +12,8 @@ import {
   House,
   GitHub,
   LinkedIn,
-  User
+  User,
+  ArrowDownRight,
 } from "@deemlol/next-icons";
 
 const skills = {
@@ -96,24 +97,29 @@ const education = [
 
 const about = [
   {
-    title: "Who am I?",
-    content:
-      "I'm Mehmet, a Full-Stack Developer based in İzmir, Turkey. I enjoy building end-to-end web applications with a strong emphasis on clean architecture, performance, and developer experience.",
+    title: "Who is Full-Stack Developer Mehmet Demir?",
+    content: `I am Full-Stack Developer Mehmet Demir with a degree in Computer Engineering from Bakırçay University.My expertise includes modern web technologies, mobile application development, and SQL-based database design.Over the past 3+ years, I have successfully developed and delivered multiple projects, working both individually and within dynamic teams.I am passionate about building high-performance, scalable, and user-centric solutions, and I continuously strive to expand my knowledge in emerging technologies.`,
   },
   {
-    title: "What do I focus on?",
+    title: "Front-End Development Expertise",
     content:
-      "My primary focus is backend engineering with .NET and Node.js, paired with modern React frontends. I care deeply about API design, scalable systems, and writing code that's easy to maintain.",
+      "I specialize in front-end development using HTML, CSS, JavaScript, React, and Next.js, crafting scalable, high-performance, and visually engaging user interfaces that deliver a seamless user experience.",
   },
   {
-    title: "What am I currently doing?",
+    title: "Back-End Development Expertise",
     content:
-      "I'm currently working full-time at Level End Yazılım A.Ş as a Full-Stack Developer, while also pursuing my Computer Engineering degree at İzmir Bakırçay University.",
+      "I develop back-end systems using Node.js, Express.js, NestJS, and C#/.NET, designing scalable architectures and high-performance APIs with a strong emphasis on maintainability, security, and clean code practices.",
   },
   {
-    title: "What am I looking for?",
+    title: "Mobile Development Expertise",
     content:
-      "I'm open to collaborations, freelance projects, and long-term opportunities where I can contribute meaningfully to a product and grow alongside a strong engineering team.",
+      "In mobile application development, I mainly work with React Native, leveraging its close alignment with React to develop applications faster and more efficiently while maintaining a consistent development experience.",
+  },
+  {
+    title: "DevOps & Cloud Expertise",
+    content: `I focus on using modern platforms to build, deploy, and manage real-world applications efficiently. I have hands-on experience with AWS services such as EC2, RDS, Amplify, and Route 53, enabling me to develop scalable cloud-based systems.
+
+I also use platforms like Vercel and Hostinger for fast and reliable deployments. Additionally, I rely on Git-based workflows to safely update live applications, ensuring stability, continuous delivery, and minimal downtime.`,
   },
 ];
 
@@ -222,9 +228,6 @@ function MonitorAnimation() {
 }
 
 export default function Home() {
-
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
-
   return (
     <>
       <Header />
@@ -244,24 +247,26 @@ export default function Home() {
                 </p>
 
                 <h1 className={`${styles.heroName} fade-up-1`}>
-                  Building modern
+                  Developing modern
                   <br />
                   <span className={styles.heroNameAccent}>
-                    digital products
+                    full-stack architecture
                   </span>
                 </h1>
 
                 <p className={`${styles.heroRole} fade-up-2`}>
-                  Mehmet Demir • Full-Stack Developer
+                  Full-Stack Developer • Mehmet Demir
                 </p>
 
                 <p className={`${styles.heroDesc} fade-up-3`}>
-                  I design and build scalable web applications with a strong
-                  focus on backend architecture, clean frontend systems, and
-                  maintainable developer workflows across{" "}
-                  <span className={styles.hl}>.NET</span>,{" "}
-                  <span className={styles.hl}>Node.js</span>, and{" "}
-                  <span className={styles.hl}>React</span>.
+                  I build scalable and high-performance web applications using{" "}
+                  <span className={styles.hl}>Node.js</span>,{" "}
+                  <span className={styles.hl}>Express.js</span>,{" "}
+                  <span className={styles.hl}>C#/.NET</span>,{" "}
+                  <span className={styles.hl}>React</span>, and{" "}
+                  <span className={styles.hl}>Next.js</span> focusing on robust
+                  backend architecture, clean frontend systems, and efficient,
+                  maintainable development workflows.
                 </p>
 
                 <div className={`${styles.heroBtns} fade-up-4`}>
@@ -434,24 +439,18 @@ export default function Home() {
               </p>
             </div>
 
-            <div className={styles.accordionWrap}>
+            <div className={styles.aboutBox}>
               {about.map((item, i) => (
-                <div
-                  key={i}
-                  className={`${styles.accordionItem} ${openIndex === i ? styles.accordionOpen : ""}`}
-                >
-                  <button
-                    className={styles.accordionTrigger}
-                    onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                  >
-                    <span className={styles.accordionTitle}>{item.title}</span>
-                    <span className={styles.accordionIcon}>
-                      {openIndex === i ? "−" : "+"}
-                    </span>
-                  </button>
-                  <div className={styles.accordionBody}>
-                    <p className={styles.accordionContent}>{item.content}</p>
+                <div key={i} className={styles.aboutRow}>
+                  <div className={styles.aboutRowLeft}>
+                    <ArrowDownRight
+                      size={24}
+                      color="#d6b36a"
+                      strokeWidth={1.5}
+                    />
+                    <h1 className={styles.aboutRowTitle}>{item.title}</h1>
                   </div>
+                  <p className={styles.aboutRowContent}>{item.content}</p>
                 </div>
               ))}
             </div>
