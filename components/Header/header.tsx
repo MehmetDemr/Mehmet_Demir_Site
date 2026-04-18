@@ -105,7 +105,10 @@ export default function Header() {
         <button
           type="button"
           className={`${styles.burger} ${menuOpen ? styles.burgerActive : ""}`}
-          onClick={() => setMenuOpen((prev) => !prev)}
+          onClick={() => {
+            setMenuOpen((prev) => !prev);
+            setLangOpen(false);
+          }}
           aria-label="Toggle menu"
           aria-expanded={menuOpen}
         >

@@ -320,20 +320,33 @@
     padding: 0.85rem 1rem;
   }
 
-    .langWrapper {
+.langWrapper {
     margin-left: 0;
     margin-top: 0.75rem;
+    flex-direction: column;
+    width: 100%;
   }
 
   .langBtn {
     width: 100%;
     border-radius: 12px;
     justify-content: center;
+    padding: 0.8rem 1rem;
+    height: auto;
   }
 
   .langMenu {
     position: static;
     margin-top: 0.5rem;
     width: 100%;
+    max-height: 220px;
+    overflow-y: auto;
+    box-shadow: none;
+    border-radius: 12px;
+  }
+
+  .langItem {
+    padding: 0.75rem 1rem;
+    font-size: 0.88rem;
   }
 }
