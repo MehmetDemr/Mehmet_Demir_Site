@@ -60,8 +60,8 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 0.8fr 2fr 0.7fr 0.7fr;
-  gap: 2.5rem;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
   padding: 2rem 0;
   border-bottom: 1px solid rgba(214, 179, 106, 0.1);
 }

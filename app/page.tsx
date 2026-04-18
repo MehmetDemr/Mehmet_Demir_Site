@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import styles from "./page.module.css";
 import Header from "../components/Header/header";
 import Footer from "../components/Footer/footer";
@@ -15,119 +15,13 @@ import {
   User,
   ArrowDownRight,
 } from "@deemlol/next-icons";
-
-const skills = {
-  Backend: [
-    { name: "C#", color: "#239120" },
-    { name: "ASP.NET", color: "#512BD4" },
-    { name: "Node.js", color: "#339933" },
-    { name: "Express.js", color: "#8b949e" },
-    { name: "NestJS", color: "#E0234E" },
-    { name: "Java", color: "#007396" },
-    { name: "REST API", color: "#00d9a3" },
-  ],
-  Frontend: [
-    { name: "React", color: "#61DAFB" },
-    { name: "Next.js", color: "#8b949e" },
-    { name: "TypeScript", color: "#007ACC" },
-    { name: "JavaScript", color: "#F7DF1E" },
-    { name: "HTML5", color: "#E34F26" },
-    { name: "CSS3", color: "#1572B6" },
-    { name: "jQuery", color: "#0769AD" },
-    { name: "Tailwind CSS", color: "#06B6D4" },
-    { name: "Bootstrap", color: "#7952B3" },
-  ],
-  Database: [
-    { name: "PostgreSQL", color: "#4169E1" },
-    { name: "MySQL", color: "#4479A1" },
-    { name: "SQL Server", color: "#CC2927" },
-    { name: "MongoDB", color: "#47A248" },
-  ],
-  "Cloud & Tools": [
-    { name: "AWS", color: "#FF9900" },
-    { name: "Git", color: "#F05032" },
-    { name: "Hostinger", color: "#673DE6" },
-    { name: "Vercel", color: "#8b949e" },
-  ],
-};
-
-const experience = [
-  {
-    company: "Level End Yazılım A.Ş",
-    role: "Full-Stack Developer",
-    type: "Full Time",
-    period: "Feb 2026 — Present",
-    current: true,
-  },
-  {
-    company: "Level End Yazılım A.Ş",
-    role: "Full-Stack Developer",
-    type: "Part Time",
-    period: "Aug 2025 — Feb 2026",
-    current: false,
-  },
-  {
-    company: "Level End Yazılım A.Ş",
-    role: "Full-Stack Developer",
-    type: "Intern",
-    period: "Jun 2025 — Jul 2025",
-    current: false,
-  },
-  {
-    company: "Ottopus A.Ş",
-    role: "Full-Stack Developer",
-    type: "Intern",
-    period: "Jul 2024 — Jun 2025",
-    current: false,
-  },
-];
-
-const education = [
-  {
-    school: "İzmir Bakırçay University",
-    period: "2022 — 2026",
-    icon: <House size={24} color="#d6b36a" strokeWidth={1.5} />,
-  },
-  {
-    school: "Fatma Saygın Anadolu High School",
-    period: "2017 — 2021",
-    icon: <House size={24} color="#d6b36a" strokeWidth={1.5} />,
-  },
-];
-
-const about = [
-  {
-    title: "Who is Full-Stack Developer Mehmet Demir?",
-    content: `I am Full-Stack Developer Mehmet Demir with a degree in Computer Engineering from Bakırçay University.My expertise includes modern web technologies, mobile application development, and SQL-based database design.Over the past 3+ years, I have successfully developed and delivered multiple projects, working both individually and within dynamic teams.I am passionate about building high-performance, scalable, and user-centric solutions, and I continuously strive to expand my knowledge in emerging technologies.`,
-  },
-  {
-    title: "Front-End Development Expertise",
-    content:
-      "I specialize in front-end development using HTML, CSS, JavaScript, React, and Next.js, crafting scalable, high-performance, and visually engaging user interfaces that deliver a seamless user experience.",
-  },
-  {
-    title: "Back-End Development Expertise",
-    content:
-      "I develop back-end systems using Node.js, Express.js, NestJS, and C#/.NET, designing scalable architectures and high-performance APIs with a strong emphasis on maintainability, security, and clean code practices.",
-  },
-  {
-    title: "Mobile Development Expertise",
-    content:
-      "In mobile application development, I mainly work with React Native, leveraging its close alignment with React to develop applications faster and more efficiently while maintaining a consistent development experience.",
-  },
-  {
-    title: "DevOps & Cloud Expertise",
-    content: `I focus on using modern platforms to build, deploy, and manage real-world applications efficiently. I have hands-on experience with AWS services such as EC2, RDS, Amplify, and Route 53, enabling me to develop scalable cloud-based systems.
-
-I also use platforms like Vercel and Hostinger for fast and reliable deployments. Additionally, I rely on Git-based workflows to safely update live applications, ensuring stability, continuous delivery, and minimal downtime.`,
-  },
-];
+import { bodyTranslations } from "../lib/translations";
+import { useLanguage } from "../context/language-context";
 
 function MonitorAnimation() {
   const typedRef = useRef<HTMLSpanElement>(null);
   const closeParenRef = useRef<HTMLSpanElement>(null);
   const outputRef = useRef<HTMLDivElement>(null);
-
   useEffect(() => {
     const txt = '"Hello world!"';
     let running = true;
@@ -228,6 +122,33 @@ function MonitorAnimation() {
 }
 
 export default function Home() {
+  const { locale, isLoading } = useLanguage();
+  const t = bodyTranslations[locale as keyof typeof bodyTranslations];
+
+  useEffect(() => {
+    if (!isLoading && window.location.hash) {
+      const id = window.location.hash.slice(1);
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [isLoading]);
+
+  if (isLoading) {
+    return (
+      <>
+        <Header />
+        <main className={styles.main}>
+          <div className={styles.loaderWrap}>
+            <div className={styles.loader} />
+          </div>
+        </main>
+        <Footer />
+      </>
+    );
+  }
+
   return (
     <>
       <Header />
@@ -243,43 +164,48 @@ export default function Home() {
               <div className={styles.heroInner}>
                 <p className={`${styles.heroTag} fade-up`}>
                   <span className={styles.dot} />
-                  Full-Stack Developer
+                  {t.hero.tag}
                 </p>
-
                 <h1 className={`${styles.heroName} fade-up-1`}>
-                  Developing modern
-                  <br />
-                  <span className={styles.heroNameAccent}>
-                    full-stack architecture
-                  </span>
+                  {t.hero.heading.split("\n").map((line, i) => (
+                    <span key={i}>
+                      {i === 0 ? (
+                        line
+                      ) : (
+                        <span className={styles.heroNameAccent}>{line}</span>
+                      )}
+                      {i === 0 && <br />}
+                    </span>
+                  ))}
                 </h1>
 
-                <p className={`${styles.heroRole} fade-up-2`}>
-                  Full-Stack Developer • Mehmet Demir
-                </p>
+                <p className={`${styles.heroRole} fade-up-2`}>{t.hero.role}</p>
 
                 <p className={`${styles.heroDesc} fade-up-3`}>
-                  I build scalable and high-performance web applications using{" "}
-                  <span className={styles.hl}>Node.js</span>,{" "}
-                  <span className={styles.hl}>Express.js</span>,{" "}
-                  <span className={styles.hl}>C#/.NET</span>,{" "}
-                  <span className={styles.hl}>React</span>, and{" "}
-                  <span className={styles.hl}>Next.js</span> focusing on robust
-                  backend architecture, clean frontend systems, and efficient,
-                  maintainable development workflows.
+                  {t.hero.description.split(/(\{[^}]+\})/).map((part, i) => {
+                    const match = part.match(/^\{(.+)\}$/);
+                    if (match)
+                      return (
+                        <span key={i} className={styles.hl}>
+                          {match[1]}
+                        </span>
+                      );
+                    return part;
+                  })}
                 </p>
 
                 <div className={`${styles.heroBtns} fade-up-4`}>
                   <a href="#experience" className={styles.btnPrimary}>
-                    Explore My Experience
+                    {t.hero.btnExplore}
                   </a>
+
                   <a
                     href="https://mail.google.com/mail/?view=cm&to=demirmehmet226648@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={styles.btnSecondary}
                   >
-                    Contact Me
+                    {t.hero.btnContact}
                   </a>
                 </div>
               </div>
@@ -293,18 +219,26 @@ export default function Home() {
             {/* Stats Bar */}
             <div className={`${styles.heroStats} fade-up-5`}>
               <div className={styles.statItem}>
-                <span className={styles.statNum}>2+</span>
-                <span className={styles.statLabel}>Years of Experience</span>
+                <span className={styles.statNum}>{t.stats.experience.num}</span>
+                <span className={styles.statLabel}>
+                  {t.stats.experience.label}
+                </span>
               </div>
               <div className={styles.statDivider} />
               <div className={styles.statItem}>
-                <span className={styles.statNum}>20+</span>
-                <span className={styles.statLabel}>Technologies</span>
+                <span className={styles.statNum}>
+                  {t.stats.technologies.num}
+                </span>
+                <span className={styles.statLabel}>
+                  {t.stats.technologies.label}
+                </span>
               </div>
               <div className={styles.statDivider} />
               <div className={styles.statItem}>
-                <span className={styles.statNum}>20+</span>
-                <span className={styles.statLabel}>Projects</span>
+                <span className={styles.statNum}>{t.stats.projects.num}</span>
+                <span className={styles.statLabel}>
+                  {t.stats.projects.label}
+                </span>
               </div>
             </div>
           </div>
@@ -316,40 +250,39 @@ export default function Home() {
             <div className={styles.sectionHeader}>
               <span className={styles.sectionTag}>
                 <Award size={24} color="#d6b36a" strokeWidth={1.5} />
-                &nbsp;Expertise
+                &nbsp;{t.skills.tag}
               </span>
-              <h2 className={styles.sectionTitle}>Core Technologies</h2>
-              <p className={styles.sectionDesc}>
-                A balanced stack across backend engineering, frontend
-                development, database systems, and cloud tooling.
-              </p>
+              <h2 className={styles.sectionTitle}>{t.skills.title}</h2>
+              <p className={styles.sectionDesc}>{t.skills.description}</p>
             </div>
 
             <div className={styles.skillsGrid}>
-              {Object.entries(skills).map(([category, items], index) => (
-                <div key={category} className={styles.skillCard}>
-                  <div className={styles.skillCardTop}>
-                    <span className={styles.skillIndex}>0{index + 1}</span>
-                    <h3 className={styles.skillCategory}>{category}</h3>
+              {Object.entries(t.skills.categories).map(
+                ([category, items], index) => (
+                  <div key={category} className={styles.skillCard}>
+                    <div className={styles.skillCardTop}>
+                      <span className={styles.skillIndex}>0{index + 1}</span>
+                      <h3 className={styles.skillCategory}>{category}</h3>
+                    </div>
+                    <div className={styles.badgeWrap}>
+                      {items.map((skill) => (
+                        <span
+                          key={skill.name}
+                          className={styles.badge}
+                          style={
+                            {
+                              "--badge-color": skill.color,
+                            } as React.CSSProperties
+                          }
+                        >
+                          <span className={styles.badgeDot} />
+                          {skill.name}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                  <div className={styles.badgeWrap}>
-                    {items.map((skill) => (
-                      <span
-                        key={skill.name}
-                        className={styles.badge}
-                        style={
-                          {
-                            "--badge-color": skill.color,
-                          } as React.CSSProperties
-                        }
-                      >
-                        <span className={styles.badgeDot} />
-                        {skill.name}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              ))}
+                ),
+              )}
             </div>
           </div>
         </section>
@@ -360,23 +293,20 @@ export default function Home() {
             <div className={styles.sectionHeader}>
               <span className={styles.sectionTag}>
                 <Monitor size={24} color="#d6b36a" strokeWidth={1.5} />
-                &nbsp;Career
+                &nbsp;{t.experience.tag}
               </span>
-              <h2 className={styles.sectionTitle}>Professional Experience</h2>
-              <p className={styles.sectionDesc}>
-                Hands-on experience across internships, part-time, and full-time
-                full-stack development roles.
-              </p>
+              <h2 className={styles.sectionTitle}>{t.experience.title}</h2>
+              <p className={styles.sectionDesc}>{t.experience.description}</p>
             </div>
 
             <div className={styles.timeline}>
-              {experience.map((exp, i) => (
+              {t.experience.items.map((exp, i) => (
                 <div key={i} className={styles.tlItem}>
                   <div className={styles.tlLine}>
                     <div
                       className={`${styles.tlDot} ${exp.current ? styles.tlDotActive : ""}`}
                     />
-                    {i < experience.length - 1 && (
+                    {i < t.experience.items.length - 1 && (
                       <div className={styles.tlConnector} />
                     )}
                   </div>
@@ -385,7 +315,9 @@ export default function Home() {
                     <div className={styles.tlTop}>
                       <h3 className={styles.tlCompany}>{exp.company}</h3>
                       {exp.current && (
-                        <span className={styles.currentBadge}>Active Role</span>
+                        <span className={styles.currentBadge}>
+                          {t.experience.activeBadge}
+                        </span>
                       )}
                     </div>
                     <p className={styles.tlRole}>{exp.role}</p>
@@ -406,15 +338,17 @@ export default function Home() {
             <div className={styles.sectionHeader}>
               <span className={styles.sectionTag}>
                 <Book size={24} color="#d6b36a" strokeWidth={1.5} />
-                &nbsp;Education
+                &nbsp;{t.education.tag}
               </span>
-              <h2 className={styles.sectionTitle}>Academic Background</h2>
+              <h2 className={styles.sectionTitle}>{t.education.title}</h2>
             </div>
 
             <div className={styles.eduGrid}>
-              {education.map((edu, i) => (
+              {t.education.items.map((edu, i) => (
                 <div key={i} className={styles.eduCard}>
-                  <span className={styles.eduIcon}>{edu.icon}</span>
+                  <span className={styles.eduIcon}>
+                    <House size={24} color="#d6b36a" strokeWidth={1.5} />
+                  </span>
                   <div>
                     <h3 className={styles.eduSchool}>{edu.school}</h3>
                     <p className={styles.eduPeriod}>{edu.period}</p>
@@ -431,16 +365,14 @@ export default function Home() {
             <div className={styles.sectionHeader}>
               <span className={styles.sectionTag}>
                 <User size={24} color="#d6b36a" strokeWidth={1.5} />
-                &nbsp;About
+                &nbsp;{t.about.tag}
               </span>
-              <h2 className={styles.sectionTitle}>About Me</h2>
-              <p className={styles.sectionDesc}>
-                A little more about who I am, what I do, and where I'm headed.
-              </p>
+              <h2 className={styles.sectionTitle}>{t.about.title}</h2>
+              <p className={styles.sectionDesc}>{t.about.subtitle}</p>
             </div>
 
             <div className={styles.aboutBox}>
-              {about.map((item, i) => (
+              {t.about.items.map((item, i) => (
                 <div key={i} className={styles.aboutRow}>
                   <div className={styles.aboutRowLeft}>
                     <ArrowDownRight
@@ -463,26 +395,24 @@ export default function Home() {
             <div className={styles.sectionHeader}>
               <span className={styles.sectionTag}>
                 <PhoneCall size={26} color="#d6b36a" strokeWidth={1} />
-                &nbsp;Contact
+                &nbsp;{t.contact.tag}
               </span>
-              <h2 className={styles.sectionTitle}>Let's Contact</h2>
-              <p className={styles.sectionDesc}>
-                Available for collaborations, full-time opportunities, and
-                meaningful product work.
-              </p>
+              <h2 className={styles.sectionTitle}>{t.contact.title}</h2>
+              <p className={styles.sectionDesc}>{t.contact.description}</p>
             </div>
 
             <div className={styles.contactBox}>
               <div className={styles.contactLinks}>
                 <a
-                  href="https://mail.google.com/mail/?view=cm&to=demirmehmet226648@gmail.com"
+                  href={`https://mail.google.com/mail/?view=cm&to=${t.contact.email}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.contactLink}
                 >
                   <span className={styles.contactLinkIcon}>✉</span>
-                  demirmehmet226648@gmail.com
+                  {t.contact.email}
                 </a>
+
                 <a
                   href="https://linkedin.com/in/mehmet-demir-"
                   target="_blank"
@@ -492,8 +422,9 @@ export default function Home() {
                   <span className={styles.contactLinkIcon}>
                     <LinkedIn size={24} color="#d6b36a" strokeWidth={1.5} />
                   </span>
-                  LinkedIn
+                  {t.contact.linkedin}
                 </a>
+
                 <a
                   href="https://github.com/MehmetDemr"
                   target="_blank"
@@ -503,7 +434,7 @@ export default function Home() {
                   <span className={styles.contactLinkIcon}>
                     <GitHub size={24} color="#d6b36a" strokeWidth={1.5} />
                   </span>
-                  GitHub
+                  {t.contact.github}
                 </a>
               </div>
             </div>
