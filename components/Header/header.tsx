@@ -24,6 +24,17 @@ export default function Header() {
     { label: t.contact, href: "/#contact" },
   ];
 
+  const cvFileMap: Record<string, string> = {
+    tr: "Mehmet-Demir-Cv-Tr",
+    en: "Mehmet-Demir-Cv-En",
+    de: "Mehmet-Demir-Cv-De",
+    ru: "Mehmet-Demir-Cv-Ru",
+    es: "Mehmet-Demir-Cv-Es",
+    fr: "Mehmet-Demir-Cv-Fr",
+    pl: "Mehmet-Demir-Cv-Pl",
+    it: "Mehmet-Demir-Cv-It",
+  };
+
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
     window.addEventListener("scroll", onScroll);
@@ -94,7 +105,8 @@ export default function Header() {
           </div>
 
           <a
-            href="mailto:demirmehmet226648@gmail.com"
+            href={`/cv/${cvFileMap[locale]}.pdf`}
+            download
             className={styles.ctaBtn}
             onClick={() => setMenuOpen(false)}
           >

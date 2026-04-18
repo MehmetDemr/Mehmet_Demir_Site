@@ -138,13 +138,13 @@ export default function Home() {
   if (isLoading) {
     return (
       <>
-        <Header />
+        
         <main className={styles.main}>
           <div className={styles.loaderWrap}>
             <div className={styles.loader} />
           </div>
         </main>
-        <Footer />
+      
       </>
     );
   }
