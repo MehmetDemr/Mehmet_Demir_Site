@@ -25,7 +25,16 @@ const skillGroups = {
     "Bootstrap",
   ],
   Database: ["PostgreSQL", "MySQL", "SQL Server", "MongoDB"],
-  "Cloud & Tools": ["AWS", "Git", "Hostinger", "Vercel"],
+  "Cloud & Tools": [
+    "AWS",
+    "Git",
+    "Hostinger",
+    "Vercel",
+    "Railway",
+    "Google Tag Manager",
+    "Google Cloud (OAuth)",
+    "Apple Sign In (OAuth)",
+  ],
 };
 
 export default function Footer() {
