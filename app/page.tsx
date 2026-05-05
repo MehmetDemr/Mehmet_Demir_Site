@@ -265,7 +265,7 @@ export default function Home() {
                       <h3 className={styles.skillCategory}>{category}</h3>
                     </div>
                     <div className={styles.badgeWrap}>
-                      {items.map((skill) => (
+                      {items.map((skill: { name: string; color: string }) => (
                         <span
                           key={skill.name}
                           className={styles.badge}
