@@ -31,6 +31,8 @@ const skillGroups = {
     "Hostinger",
     "Vercel",
     "Railway",
+    "Render",
+    "Supabase",
     "Google Tag Manager",
     "Google Cloud (OAuth)",
     "Apple Sign In (OAuth)",

@@ -213,7 +213,7 @@ export const bodyTranslations = {
       heading: "Developing modern\nfull-stack architecture",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "I build scalable and high-performance web applications using {Node.js}, {Express.js}, {C#/.NET}, {React}, {Next.js}, focusing on robust backend architecture, clean frontend systems, and efficient, maintainable development workflows.",
+        "I build scalable and high-performance web applications using {Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js}, focusing on robust backend architecture, clean frontend systems, and efficient, maintainable development workflows.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Explore My Experience",
       btnContact: "Contact Me",
@@ -222,7 +222,7 @@ export const bodyTranslations = {
     // Stats Bar
     stats: {
       experience: { num: "2+", label: "Years of Experience" },
-      technologies: { num: "20+", label: "Technologies" },
+      technologies: { num: "30+", label: "Technologies" },
       projects: { num: "20+", label: "Projects" },
     },
 
@@ -266,6 +266,8 @@ export const bodyTranslations = {
           { name: "Hostinger", color: "#673DE6" },
           { name: "Vercel", color: "#61DAFB" },
           { name: "Railway", color: "#512BD4" },
+          { name: "Supabase", color: "#3ECF8E" },
+          { name: "Render", color: "#46E3B7" },
           { name: "Google Tag Manager", color: "#007ACC" },
           { name: "Google Cloud (OAuth)", color: "#7952B3" },
           { name: "Apple Sign In (OAuth)", color: "#E0234E" },
@@ -285,8 +287,8 @@ export const bodyTranslations = {
           company: "Level End Yazılım A.Ş",
           role: "Full-Stack Developer",
           type: "Full Time",
-          period: "Februrary 2026 — Present",
-          current: true,
+          period: "Februrary 2026 — May 2026",
+          current: false,
         },
         {
           company: "Level End Yazılım A.Ş",
@@ -346,7 +348,7 @@ export const bodyTranslations = {
         {
           title: "Back-End Development Expertise",
           content:
-            "I develop back-end systems using Node.js, Express.js, NestJS, and C#/.NET, designing scalable architectures and high-performance APIs with a strong emphasis on maintainability, security, and clean code practices.",
+            "I develop back-end systems using Node.js, Express.js, Nest.js, and C#/.NET, designing scalable architectures and high-performance APIs with a strong emphasis on maintainability, security, and clean code practices.",
         },
         {
           title: "Mobile Development Expertise",
@@ -378,7 +380,7 @@ export const bodyTranslations = {
       heading: "Modern full-stack mimari\ngeliştirme",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "{Node.js}, {Express.js}, {C#/.NET}, {React}, {Next.js} kullanarak; ölçeklenebilir ve yüksek performanslı web uygulamaları geliştiriyor; güçlü backend mimarisine, temiz frontend sistemlerine ve verimli, sürdürülebilir geliştirme iş akışlarına odaklanıyorum.",
+        "{Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js} kullanarak; ölçeklenebilir ve yüksek performanslı web uygulamaları geliştiriyor; güçlü backend mimarisine, temiz frontend sistemlerine ve verimli, sürdürülebilir geliştirme iş akışlarına odaklanıyorum.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Deneyimlerimi Keşfedin",
       btnContact: "Benimle İletişime Geçin",
@@ -387,7 +389,7 @@ export const bodyTranslations = {
     // Stats Bar
     stats: {
       experience: { num: "2+", label: "Yıl Deneyim" },
-      technologies: { num: "20+", label: "Teknoloji" },
+      technologies: { num: "30+", label: "Teknoloji" },
       projects: { num: "20+", label: "Proje" },
     },
 
@@ -450,8 +452,8 @@ export const bodyTranslations = {
           company: "Level End Yazılım A.Ş",
           role: "Full-Stack Developer",
           type: "Full Time",
-          period: "Şubat 2026 — Günümüz",
-          current: true,
+          period: "Şubat 2026 — Mayıs 2026",
+          current: false,
         },
         {
           company: "Level End Yazılım A.Ş",
@@ -511,7 +513,7 @@ export const bodyTranslations = {
         {
           title: "Back-End Geliştirme Uzmanlığı",
           content:
-            "Node.js, Express.js, NestJS ve C#/.NET kullanarak back-end sistemleri geliştiriyor; sürdürülebilirlik, güvenlik ve temiz kod pratiklerine güçlü bir vurgu yaparak ölçeklenebilir mimariler ve yüksek performanslı API'ler tasarlıyorum.",
+            "Node.js, Express.js, Nest.js ve C#/.NET kullanarak back-end sistemleri geliştiriyor; sürdürülebilirlik, güvenlik ve temiz kod pratiklerine güçlü bir vurgu yaparak ölçeklenebilir mimariler ve yüksek performanslı API'ler tasarlıyorum.",
         },
         {
           title: "Mobil Geliştirme Uzmanlığı",
@@ -543,7 +545,7 @@ export const bodyTranslations = {
       heading: "Entwicklung moderner\nFull-Stack-Architektur",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "Ich entwickle skalierbare und hochperformante Webanwendungen mit {Node.js}, {Express.js}, {C#/.NET}, {React}, {Next.js}, mit Fokus auf robuste Backend-Architektur, saubere Frontend-Systeme und effiziente, wartbare Entwicklungs-Workflows.",
+        "Ich entwickle skalierbare und hochperformante Webanwendungen mit {Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js}, mit Fokus auf robuste Backend-Architektur, saubere Frontend-Systeme und effiziente, wartbare Entwicklungs-Workflows.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Meine Erfahrung entdecken",
       btnContact: "Kontaktieren Sie mich",
@@ -552,7 +554,7 @@ export const bodyTranslations = {
     // Stats Bar
     stats: {
       experience: { num: "2+", label: "Jahre Erfahrung" },
-      technologies: { num: "20+", label: "Technologien" },
+      technologies: { num: "30+", label: "Technologien" },
       projects: { num: "20+", label: "Projekte" },
     },
 
@@ -615,8 +617,8 @@ export const bodyTranslations = {
           company: "Level End Yazılım A.Ş",
           role: "Full-Stack Developer",
           type: "Vollzeit",
-          period: "Februar 2026 — Heute",
-          current: true,
+          period: "Februar 2026 — Mai 2026",
+          current: false,
         },
         {
           company: "Level End Yazılım A.Ş",
@@ -676,7 +678,7 @@ export const bodyTranslations = {
         {
           title: "Back-End Entwicklungskompetenz",
           content:
-            "Ich entwickle Back-End-Systeme mit Node.js, Express.js, NestJS und C#/.NET und entwerfe skalierbare Architekturen sowie hochperformante APIs mit starkem Fokus auf Wartbarkeit, Sicherheit und Clean-Code-Praktiken.",
+            "Ich entwickle Back-End-Systeme mit Node.js, Express.js, Nest.js und C#/.NET und entwerfe skalierbare Architekturen sowie hochperformante APIs mit starkem Fokus auf Wartbarkeit, Sicherheit und Clean-Code-Praktiken.",
         },
         {
           title: "Mobile Entwicklungskompetenz",
@@ -708,7 +710,7 @@ export const bodyTranslations = {
       heading: "Разработка современной\nfull-stack архитектуры",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "Я создаю масштабируемые и высокопроизводительные веб-приложения с использованием {Node.js}, {Express.js}, {C#/.NET}, {React}, {Next.js}, уделяя особое внимание надежной архитектуре backend, чистым системам frontend и эффективным, поддерживаемым процессам разработки.",
+        "Я создаю масштабируемые и высокопроизводительные веб-приложения с использованием {Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js}, уделяя особое внимание надежной архитектуре backend, чистым системам frontend и эффективным, поддерживаемым процессам разработки.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Посмотреть мой опыт",
       btnContact: "Связаться со мной",
@@ -717,7 +719,7 @@ export const bodyTranslations = {
     // Stats Bar
     stats: {
       experience: { num: "2+", label: "Лет опыта" },
-      technologies: { num: "20+", label: "Технологий" },
+      technologies: { num: "30+", label: "Технологий" },
       projects: { num: "20+", label: "Проектов" },
     },
 
@@ -780,8 +782,8 @@ export const bodyTranslations = {
           company: "Level End Yazılım A.Ş",
           role: "Full-Stack Developer",
           type: "Полная занятость",
-          period: "Февраль 2026 — Настоящее время",
-          current: true,
+          period: "Февраль 2026 — Май 2026",
+          current: false,
         },
         {
           company: "Level End Yazılım A.Ş",
@@ -841,7 +843,7 @@ export const bodyTranslations = {
         {
           title: "Экспертиза в Back-End разработке",
           content:
-            "Я разрабатываю back-end системы с использованием Node.js, Express.js, NestJS и C#/.NET, проектируя масштабируемые архитектуры и высокопроизводительные API с упором на удобство сопровождения, безопасность и практику чистого кода.",
+            "Я разрабатываю back-end системы с использованием Node.js, Express.js, Nest.js и C#/.NET, проектируя масштабируемые архитектуры и высокопроизводительные API с упором на удобство сопровождения, безопасность и практику чистого кода.",
         },
         {
           title: "Экспертиза в мобильной разработке",
@@ -873,7 +875,7 @@ export const bodyTranslations = {
       heading: "Desarrollo de arquitectura\nfull-stack moderna",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "Desarrollo aplicaciones web escalables y de alto rendimiento utilizando {Node.js}, {Express.js}, {C#/.NET}, {React}, {Next.js}, centrándome en una arquitectura backend robusta, sistemas frontend limpios y flujos de trabajo de desarrollo eficientes y mantenibles.",
+        "Desarrollo aplicaciones web escalables y de alto rendimiento utilizando {Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js}, centrándome en una arquitectura backend robusta, sistemas frontend limpios y flujos de trabajo de desarrollo eficientes y mantenibles.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Explorar mi experiencia",
       btnContact: "Contáctame",
@@ -882,7 +884,7 @@ export const bodyTranslations = {
     // Stats Bar
     stats: {
       experience: { num: "2+", label: "Años de Experiencia" },
-      technologies: { num: "20+", label: "Tecnologías" },
+      technologies: { num: "30+", label: "Tecnologías" },
       projects: { num: "20+", label: "Proyectos" },
     },
 
@@ -945,8 +947,8 @@ export const bodyTranslations = {
           company: "Level End Yazılım A.Ş",
           role: "Full-Stack Developer",
           type: "Tiempo Completo",
-          period: "Febrero 2026 — Presente",
-          current: true,
+          period: "Febrero 2026 — Mayo de 2026",
+          current: false,
         },
         {
           company: "Level End Yazılım A.Ş",
@@ -1006,7 +1008,7 @@ export const bodyTranslations = {
         {
           title: "Experiencia en Desarrollo Backend",
           content:
-            "Desarrollo sistemas backend utilizando Node.js, Express.js, NestJS y C#/.NET, diseñando arquitecturas escalables y APIs de alto rendimiento con un fuerte énfasis en la mantenibilidad, la seguridad y las prácticas de código limpio.",
+            "Desarrollo sistemas backend utilizando Node.js, Express.js, Nest.js y C#/.NET, diseñando arquitecturas escalables y APIs de alto rendimiento con un fuerte énfasis en la mantenibilidad, la seguridad y las prácticas de código limpio.",
         },
         {
           title: "Experiencia en Desarrollo Móvil",
@@ -1038,7 +1040,7 @@ export const bodyTranslations = {
       heading: "Développement d'architectures\nfull-stack modernes",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "Je conçois des applications web évolutives et performantes avec {Node.js}, {Express.js}, {C#/.NET}, {React}, {Next.js}, en mettant l'accent sur une architecture backend robuste, des systèmes frontend épurés et des workflows de développement efficaces et maintenables.",
+        "Je conçois des applications web évolutives et performantes avec {Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js}, en mettant l'accent sur une architecture backend robuste, des systèmes frontend épurés et des workflows de développement efficaces et maintenables.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Découvrir mon expérience",
       btnContact: "Me contacter",
@@ -1047,7 +1049,7 @@ export const bodyTranslations = {
     // Stats Bar
     stats: {
       experience: { num: "2+", label: "Années d'expérience" },
-      technologies: { num: "20+", label: "Technologies" },
+      technologies: { num: "30+", label: "Technologies" },
       projects: { num: "20+", label: "Projets" },
     },
 
@@ -1110,8 +1112,8 @@ export const bodyTranslations = {
           company: "Level End Yazılım A.Ş",
           role: "Full-Stack Developer",
           type: "Temps plein",
-          period: "Février 2026 — Présent",
-          current: true,
+          period: "Février 2026 — Mai 2026",
+          current: false,
         },
         {
           company: "Level End Yazılım A.Ş",
@@ -1171,7 +1173,7 @@ export const bodyTranslations = {
         {
           title: "Expertise en Développement Back-End",
           content:
-            "Je développe des systèmes back-end avec Node.js, Express.js, NestJS et C#/.NET, en concevant des architectures évolutives et des API performantes, avec un accent particulier sur la maintenabilité, la sécurité et les pratiques de code propre.",
+            "Je développe des systèmes back-end avec Node.js, Express.js, Nest.js et C#/.NET, en concevant des architectures évolutives et des API performantes, avec un accent particulier sur la maintenabilité, la sécurité et les pratiques de code propre.",
         },
         {
           title: "Expertise en Développement Mobile",
@@ -1203,7 +1205,7 @@ export const bodyTranslations = {
       heading: "Tworzenie nowoczesnych\narchitektur full-stack",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "Buduję skalowalne i wydajne aplikacje webowe przy użyciu {Node.js}, {Express.js}, {C#/.NET}, {React}, {Next.js}, koncentrując się na solidnej architekturze backendowej, przejrzystych systemach frontendowych oraz wydajnych i łatwych w utrzymaniu procesach programistycznych.",
+        "Buduję skalowalne i wydajne aplikacje webowe przy użyciu {Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js}, koncentrując się na solidnej architekturze backendowej, przejrzystych systemach frontendowych oraz wydajnych i łatwych w utrzymaniu procesach programistycznych.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Poznaj moje doświadczenie",
       btnContact: "Skontaktuj się ze mną",
@@ -1212,7 +1214,7 @@ export const bodyTranslations = {
     // Stats Bar
     stats: {
       experience: { num: "2+", label: "Lata doświadczenia" },
-      technologies: { num: "20+", label: "Technologie" },
+      technologies: { num: "30+", label: "Technologie" },
       projects: { num: "20+", label: "Projekty" },
     },
 
@@ -1275,8 +1277,8 @@ export const bodyTranslations = {
           company: "Level End Yazılım A.Ş",
           role: "Full-Stack Developer",
           type: "Pełny etat",
-          period: "Luty 2026 — Obecnie",
-          current: true,
+          period: "Luty 2026 — Maj 2026",
+          current: false,
         },
         {
           company: "Level End Yazılım A.Ş",
@@ -1336,7 +1338,7 @@ export const bodyTranslations = {
         {
           title: "Ekspertyza w Back-Endzie",
           content:
-            "Tworzę systemy back-endowe z wykorzystaniem Node.js, Express.js, NestJS oraz C#/.NET, projektując skalowalne architektury i wysokowydajne API, kładąc duży nacisk na łatwość utrzymania, bezpieczeństwo oraz zasady czystego kodu.",
+            "Tworzę systemy back-endowe z wykorzystaniem Node.js, Express.js, Nest.js oraz C#/.NET, projektując skalowalne architektury i wysokowydajne API, kładąc duży nacisk na łatwość utrzymania, bezpieczeństwo oraz zasady czystego kodu.",
         },
         {
           title: "Ekspertyza w Rozwiązaniach Mobilnych",
@@ -1368,7 +1370,7 @@ export const bodyTranslations = {
       heading: "Sviluppo di moderne\narchitetture full-stack",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "Sviluppo applicazioni web scalabili e ad alte prestazioni utilizzando {Node.js}, {Express.js}, {C#/.NET}, {React}, {Next.js}, concentrandomi su un'architettura backend robusta, sistemi frontend puliti e flussi di lavoro efficienti e mantenibili.",
+        "Sviluppo applicazioni web scalabili e ad alte prestazioni utilizzando {Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js}, concentrandomi su un'architettura backend robusta, sistemi frontend puliti e flussi di lavoro efficienti e mantenibili.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Esplora la mia esperienza",
       btnContact: "Contattami",
@@ -1377,7 +1379,7 @@ export const bodyTranslations = {
     // Stats Bar
     stats: {
       experience: { num: "2+", label: "Anni di Esperienza" },
-      technologies: { num: "20+", label: "Tecnologie" },
+      technologies: { num: "30+", label: "Tecnologie" },
       projects: { num: "20+", label: "Progetti" },
     },
 
@@ -1440,8 +1442,8 @@ export const bodyTranslations = {
           company: "Level End Yazılım A.Ş",
           role: "Full-Stack Developer",
           type: "Full Time",
-          period: "Febbraio 2026 — Presente",
-          current: true,
+          period: "Febbraio 2026 — Maggio 2026",
+          current: false,
         },
         {
           company: "Level End Yazılım A.Ş",
@@ -1501,7 +1503,7 @@ export const bodyTranslations = {
         {
           title: "Esperienza nel Sviluppo Back-End",
           content:
-            "Sviluppo sistemi back-end utilizzando Node.js, Express.js, NestJS e C#/.NET, progettando architetture scalabili e API ad alte prestazioni con una forte enfasi sulla manutenibilità, la sicurezza e le pratiche di clean code.",
+            "Sviluppo sistemi back-end utilizzando Node.js, Express.js, Nest.js e C#/.NET, progettando architetture scalabili e API ad alte prestazioni con una forte enfasi sulla manutenibilità, la sicurezza e le pratiche di clean code.",
         },
         {
           title: "Esperienza nel Sviluppo Mobile",
@@ -1617,7 +1619,7 @@ export const projectsTranslations = {
           "TF-IDF",
           "JavaScript",
           "jQuery",
-          "Railway",
+          "Render",
           "MYSQL",
           "HTML5",
           "CSS3",
@@ -1714,6 +1716,39 @@ export const projectsTranslations = {
           "SEO",
         ],
       },
+      {
+        name: "Wordplay (Competitive Word Gaming Platform)",
+        description:
+          "Wordplay is a full-stack competitive word gaming platform designed to bring together multiple word-based games under a single, unified experience. Built with Next.js and TypeScript, the platform offers players a structured environment where they can challenge themselves across different games, track their performance, and compete on leaderboards. The platform currently features Wordle and Hangman, each with multiple difficulty levels and curated word pools. Authentication is handled via both JWT-based login and OAuth providers including Google and Apple, ensuring a seamless onboarding experience. A dynamic scoring system rewards players based on difficulty and performance, with scores persisted across daily, weekly, and all-time leaderboards. The dashboard provides a personalized experience with real-time stats, game history, and session tracking, while the architecture is built to scale with additional games and features over time.",
+        features: [
+          "Multi-game platform with Wordle and Hangman under a unified dashboard",
+          "JWT-based authentication alongside Google and Apple OAuth integration",
+          "Three difficulty tiers per game with curated word pools",
+          "Dynamic scoring system with daily, weekly, and all-time leaderboard tracking",
+          "Personalized dashboard with real-time stats and session progress",
+          "Dictionary validation via Free Dictionary API for legitimate word enforcement",
+          "Daily game limits with persistent session tracking",
+          "Fully responsive UI optimized for both mobile and desktop",
+          "Smooth animations including tile flips, shake feedback, and toast notifications",
+          "Scalable component-based architecture designed for future game expansion",
+        ],
+        live: true,
+        liveUrl: "https://wordplay-site.vercel.app",
+        tags: [
+          "Next.js",
+          "TypeScript",
+          "CSS3",
+          "JWT",
+          "OAuth",
+          "Google Auth",
+          "Apple Auth",
+          "Prisma",
+          "Vercel",
+          "REST API",
+          "Responsive Design",
+          ,
+        ],
+      },
     ],
   },
   tr: {
@@ -1802,6 +1837,8 @@ export const projectsTranslations = {
           "TF-IDF",
           "JavaScript",
           "jQuery",
+          "Render",
+          "MYSQL",
           "HTML5",
           "CSS3",
           "SMTP",
@@ -1866,6 +1903,38 @@ export const projectsTranslations = {
           "PostgreSQL",
           "HTML5",
           "CSS3",
+          "Responsive Design",
+        ],
+      },
+      {
+        name: "Wordplay (Rekabetçi Kelime Oyunları Platformu)",
+        description:
+          "Wordplay, birden fazla kelime tabanlı oyunu tek ve bütünleşik bir deneyim altında bir araya getirmek için tasarlanmış full-stack bir rekabetçi kelime oyunları platformudur. Next.js ve TypeScript ile geliştirilen platform, oyunculara farklı oyunlarda kendilerini zorlayabilecekleri, performanslarını takip edebilecekleri ve liderlik tablolarında rekabet edebilecekleri düzenli bir ortam sunar. Platform şu anda Wordle ve Hangman oyunlarını içermektedir; her iki oyun da birden fazla zorluk seviyesine ve özenle hazırlanmış kelime havuzlarına sahiptir. Kimlik doğrulama, hem JWT tabanlı giriş hem de Google ve Apple dahil OAuth sağlayıcıları aracılığıyla yönetilir ve kullanıcılar için sorunsuz bir başlangıç deneyimi sağlar. Dinamik puanlama sistemi, oyuncuları zorluk seviyesi ve performanslarına göre ödüllendirir; puanlar günlük, haftalık ve tüm zamanlar liderlik tablolarında kalıcı olarak saklanır. Dashboard, gerçek zamanlı istatistikler, oyun geçmişi ve oturum takibiyle kişiselleştirilmiş bir deneyim sunarken, mimari zaman içinde ek oyunlar ve özelliklerle ölçeklenebilecek şekilde tasarlanmıştır.",
+        features: [
+          "Wordle ve Hangman oyunlarını tek bir dashboard altında birleştiren çoklu oyun platformu",
+          "Google ve Apple OAuth entegrasyonu ile birlikte JWT tabanlı kimlik doğrulama",
+          "Her oyun için özenle hazırlanmış kelime havuzlarına sahip üç zorluk seviyesi",
+          "Günlük, haftalık ve tüm zamanlar liderlik tabloları takibine sahip dinamik puanlama sistemi",
+          "Gerçek zamanlı istatistikler ve oturum ilerlemesi sunan kişiselleştirilmiş dashboard",
+          "Geçerli kelime kontrolü için Free Dictionary API üzerinden sözlük doğrulaması",
+          "Kalıcı oturum takibiyle günlük oyun limitleri",
+          "Hem mobil hem de masaüstü için optimize edilmiş tamamen responsive arayüz",
+          "Kart çevirme, sallanma geri bildirimi ve toast bildirimleri gibi akıcı animasyonlar",
+          "Gelecekteki oyun genişletmeleri için tasarlanmış ölçeklenebilir component tabanlı mimari",
+        ],
+        live: true,
+        liveUrl: "https://wordplay-site.vercel.app",
+        tags: [
+          "Next.js",
+          "TypeScript",
+          "CSS3",
+          "JWT",
+          "OAuth",
+          "Google Auth",
+          "Apple Auth",
+          "Prisma",
+          "Vercel",
+          "REST API",
           "Responsive Design",
         ],
       },
@@ -1982,6 +2051,8 @@ export const projectsTranslations = {
           "TF-IDF",
           "JavaScript",
           "jQuery",
+          "Render",
+          "MYSQL",
           "HTML5",
           "CSS3",
           "SMTP",
@@ -2046,6 +2117,38 @@ export const projectsTranslations = {
           "PostgreSQL",
           "HTML5",
           "CSS3",
+          "Responsive Design",
+        ],
+      },
+      {
+        name: "Wordplay (Wettbewerbsorientierte Wortspiel-Plattform)",
+        description:
+          "Wordplay ist eine Full-Stack-Plattform für wettbewerbsorientierte Wortspiele, die entwickelt wurde, um mehrere wortbasierte Spiele in einer einzigen, einheitlichen Erfahrung zusammenzuführen. Die Plattform wurde mit Next.js und TypeScript entwickelt und bietet Spielern eine strukturierte Umgebung, in der sie sich in verschiedenen Spielen herausfordern, ihre Leistung verfolgen und auf Bestenlisten konkurrieren können. Die Plattform umfasst derzeit Wordle und Hangman, jeweils mit mehreren Schwierigkeitsstufen und sorgfältig zusammengestellten Wortpools. Die Authentifizierung wird sowohl über JWT-basiertes Login als auch über OAuth-Anbieter wie Google und Apple verwaltet, wodurch ein reibungsloses Onboarding-Erlebnis ermöglicht wird. Ein dynamisches Punktesystem belohnt Spieler basierend auf Schwierigkeitsgrad und Leistung; die Punkte werden dauerhaft in täglichen, wöchentlichen und All-Time-Bestenlisten gespeichert. Das Dashboard bietet eine personalisierte Erfahrung mit Echtzeit-Statistiken, Spielverlauf und Sitzungsverfolgung, während die Architektur so aufgebaut ist, dass sie im Laufe der Zeit mit zusätzlichen Spielen und Funktionen skalieren kann.",
+        features: [
+          "Multi-Game-Plattform mit Wordle und Hangman unter einem einheitlichen Dashboard",
+          "JWT-basierte Authentifizierung zusammen mit Google- und Apple-OAuth-Integration",
+          "Drei Schwierigkeitsstufen pro Spiel mit sorgfältig zusammengestellten Wortpools",
+          "Dynamisches Punktesystem mit täglicher, wöchentlicher und All-Time-Bestenlistenverfolgung",
+          "Personalisiertes Dashboard mit Echtzeit-Statistiken und Sitzungsfortschritt",
+          "Wörterbuchvalidierung über die Free Dictionary API zur Sicherstellung gültiger Wörter",
+          "Tägliche Spiellimits mit dauerhafter Sitzungsverfolgung",
+          "Vollständig responsives UI, optimiert für Mobilgeräte und Desktop",
+          "Flüssige Animationen wie Kachelumdrehungen, Shake-Feedback und Toast-Benachrichtigungen",
+          "Skalierbare komponentenbasierte Architektur, entwickelt für zukünftige Spielerweiterungen",
+        ],
+        live: true,
+        liveUrl: "https://wordplay-site.vercel.app",
+        tags: [
+          "Next.js",
+          "TypeScript",
+          "CSS3",
+          "JWT",
+          "OAuth",
+          "Google Auth",
+          "Apple Auth",
+          "Prisma",
+          "Vercel",
+          "REST API",
           "Responsive Design",
         ],
       },
@@ -2162,6 +2265,8 @@ export const projectsTranslations = {
           "TF-IDF",
           "JavaScript",
           "jQuery",
+          "Render",
+          "MYSQL",
           "HTML5",
           "CSS3",
           "SMTP",
@@ -2226,6 +2331,38 @@ export const projectsTranslations = {
           "PostgreSQL",
           "HTML5",
           "CSS3",
+          "Responsive Design",
+        ],
+      },
+      {
+        name: "Wordplay (Соревновательная платформа словесных игр)",
+        description:
+          "Wordplay — это full-stack платформа для соревновательных словесных игр, созданная для объединения нескольких игр, основанных на словах, в единый и целостный пользовательский опыт. Платформа разработана с использованием Next.js и TypeScript и предоставляет игрокам структурированную среду, где они могут испытывать себя в разных играх, отслеживать свою эффективность и соревноваться в таблицах лидеров. В настоящее время платформа включает Wordle и Hangman, каждая из которых имеет несколько уровней сложности и тщательно подобранные наборы слов. Аутентификация реализована как через вход на основе JWT, так и через OAuth-провайдеров, включая Google и Apple, что обеспечивает удобный процесс начала работы. Динамическая система подсчёта очков вознаграждает игроков в зависимости от сложности и результата; очки сохраняются в ежедневных, еженедельных и общих таблицах лидеров. Dashboard предоставляет персонализированный опыт с данными статистики в реальном времени, историей игр и отслеживанием сессий, а архитектура спроектирована так, чтобы со временем масштабироваться за счёт добавления новых игр и функций.",
+        features: [
+          "Многоигровая платформа с Wordle и Hangman в едином dashboard",
+          "Аутентификация на основе JWT вместе с интеграцией Google и Apple OAuth",
+          "Три уровня сложности для каждой игры с тщательно подобранными наборами слов",
+          "Динамическая система подсчёта очков с отслеживанием ежедневных, еженедельных и общих таблиц лидеров",
+          "Персонализированный dashboard со статистикой в реальном времени и прогрессом сессии",
+          "Проверка слов через Free Dictionary API для обеспечения использования допустимых слов",
+          "Ежедневные лимиты игр с постоянным отслеживанием сессий",
+          "Полностью адаптивный интерфейс, оптимизированный для мобильных устройств и desktop",
+          "Плавные анимации, включая переворот плиток, shake-feedback и toast-уведомления",
+          "Масштабируемая компонентная архитектура, разработанная для будущего расширения игр",
+        ],
+        live: true,
+        liveUrl: "https://wordplay-site.vercel.app",
+        tags: [
+          "Next.js",
+          "TypeScript",
+          "CSS3",
+          "JWT",
+          "OAuth",
+          "Google Auth",
+          "Apple Auth",
+          "Prisma",
+          "Vercel",
+          "REST API",
           "Responsive Design",
         ],
       },
@@ -2342,6 +2479,8 @@ export const projectsTranslations = {
           "TF-IDF",
           "JavaScript",
           "jQuery",
+          "Render",
+          "MYSQL",
           "HTML5",
           "CSS3",
           "SMTP",
@@ -2406,6 +2545,38 @@ export const projectsTranslations = {
           "PostgreSQL",
           "HTML5",
           "CSS3",
+          "Responsive Design",
+        ],
+      },
+      {
+        name: "Wordplay (Plataforma competitiva de juegos de palabras)",
+        description:
+          "Wordplay es una plataforma full-stack competitiva de juegos de palabras, diseñada para reunir varios juegos basados en palabras en una experiencia única y unificada. Desarrollada con Next.js y TypeScript, la plataforma ofrece a los jugadores un entorno estructurado donde pueden desafiarse en diferentes juegos, seguir su rendimiento y competir en tablas de clasificación. Actualmente, la plataforma incluye Wordle y Hangman, cada uno con varios niveles de dificultad y conjuntos de palabras cuidadosamente seleccionados. La autenticación se gestiona tanto mediante inicio de sesión basado en JWT como a través de proveedores OAuth, incluidos Google y Apple, lo que garantiza una experiencia de incorporación fluida. Un sistema dinámico de puntuación recompensa a los jugadores en función de la dificultad y el rendimiento; las puntuaciones se guardan de forma persistente en tablas de clasificación diarias, semanales y de todos los tiempos. El dashboard ofrece una experiencia personalizada con estadísticas en tiempo real, historial de partidas y seguimiento de sesiones, mientras que la arquitectura está diseñada para escalar con juegos y funciones adicionales con el tiempo.",
+        features: [
+          "Plataforma multijuego con Wordle y Hangman bajo un dashboard unificado",
+          "Autenticación basada en JWT junto con integración OAuth de Google y Apple",
+          "Tres niveles de dificultad por juego con conjuntos de palabras cuidadosamente seleccionados",
+          "Sistema dinámico de puntuación con seguimiento de tablas de clasificación diarias, semanales y de todos los tiempos",
+          "Dashboard personalizado con estadísticas en tiempo real y progreso de sesión",
+          "Validación de diccionario mediante Free Dictionary API para garantizar palabras válidas",
+          "Límites diarios de juego con seguimiento persistente de sesiones",
+          "Interfaz completamente responsive optimizada para móvil y escritorio",
+          "Animaciones fluidas, incluyendo volteo de fichas, feedback de sacudida y notificaciones toast",
+          "Arquitectura escalable basada en componentes, diseñada para futuras expansiones de juegos",
+        ],
+        live: true,
+        liveUrl: "https://wordplay-site.vercel.app",
+        tags: [
+          "Next.js",
+          "TypeScript",
+          "CSS3",
+          "JWT",
+          "OAuth",
+          "Google Auth",
+          "Apple Auth",
+          "Prisma",
+          "Vercel",
+          "REST API",
           "Responsive Design",
         ],
       },
@@ -2523,6 +2694,8 @@ export const projectsTranslations = {
           "TF-IDF",
           "JavaScript",
           "jQuery",
+          "Render",
+          "MYSQL",
           "HTML5",
           "CSS3",
           "SMTP",
@@ -2587,6 +2760,38 @@ export const projectsTranslations = {
           "PostgreSQL",
           "HTML5",
           "CSS3",
+          "Responsive Design",
+        ],
+      },
+      {
+        name: "Wordplay (Plateforme compétitive de jeux de mots)",
+        description:
+          "Wordplay est une plateforme full-stack compétitive de jeux de mots, conçue pour réunir plusieurs jeux basés sur les mots dans une expérience unique et unifiée. Développée avec Next.js et TypeScript, la plateforme offre aux joueurs un environnement structuré dans lequel ils peuvent se challenger à travers différents jeux, suivre leurs performances et rivaliser dans les classements. La plateforme propose actuellement Wordle et Hangman, chacun avec plusieurs niveaux de difficulté et des listes de mots soigneusement sélectionnées. L’authentification est gérée à la fois via une connexion basée sur JWT et via des fournisseurs OAuth, notamment Google et Apple, afin d’assurer une expérience d’inscription fluide. Un système de score dynamique récompense les joueurs en fonction de la difficulté et de leurs performances ; les scores sont conservés de manière persistante dans les classements quotidiens, hebdomadaires et de tous les temps. Le dashboard offre une expérience personnalisée avec des statistiques en temps réel, un historique des parties et un suivi des sessions, tandis que l’architecture est conçue pour évoluer avec l’ajout de nouveaux jeux et fonctionnalités au fil du temps.",
+        features: [
+          "Plateforme multijeu avec Wordle et Hangman sous un dashboard unifié",
+          "Authentification basée sur JWT avec intégration OAuth Google et Apple",
+          "Trois niveaux de difficulté par jeu avec des listes de mots soigneusement sélectionnées",
+          "Système de score dynamique avec suivi des classements quotidiens, hebdomadaires et de tous les temps",
+          "Dashboard personnalisé avec statistiques en temps réel et progression de session",
+          "Validation des mots via la Free Dictionary API afin de garantir l’utilisation de mots valides",
+          "Limites de jeu quotidiennes avec suivi persistant des sessions",
+          "Interface entièrement responsive, optimisée pour mobile et desktop",
+          "Animations fluides incluant retournement de tuiles, feedback de secousse et notifications toast",
+          "Architecture scalable basée sur des composants, conçue pour les futures extensions de jeux",
+        ],
+        live: true,
+        liveUrl: "https://wordplay-site.vercel.app",
+        tags: [
+          "Next.js",
+          "TypeScript",
+          "CSS3",
+          "JWT",
+          "OAuth",
+          "Google Auth",
+          "Apple Auth",
+          "Prisma",
+          "Vercel",
+          "REST API",
           "Responsive Design",
         ],
       },
@@ -2703,6 +2908,8 @@ export const projectsTranslations = {
           "TF-IDF",
           "JavaScript",
           "jQuery",
+          "Render",
+          "MYSQL",
           "HTML5",
           "CSS3",
           "SMTP",
@@ -2767,6 +2974,38 @@ export const projectsTranslations = {
           "PostgreSQL",
           "HTML5",
           "CSS3",
+          "Responsive Design",
+        ],
+      },
+      {
+        name: "Wordplay (Konkurencyjna platforma gier słownych)",
+        description:
+          "Wordplay to full-stackowa, konkurencyjna platforma gier słownych, zaprojektowana w celu połączenia wielu gier opartych na słowach w jedno, spójne doświadczenie. Zbudowana przy użyciu Next.js i TypeScript, platforma oferuje graczom uporządkowane środowisko, w którym mogą podejmować wyzwania w różnych grach, śledzić swoje wyniki i rywalizować w rankingach. Platforma obecnie zawiera Wordle i Hangman, z których każda gra posiada kilka poziomów trudności oraz starannie dobrane pule słów. Uwierzytelnianie obsługiwane jest zarówno przez logowanie oparte na JWT, jak i dostawców OAuth, w tym Google i Apple, co zapewnia płynne rozpoczęcie korzystania z platformy. Dynamiczny system punktacji nagradza graczy na podstawie poziomu trudności i osiąganych wyników; punkty są trwale zapisywane w dziennych, tygodniowych oraz ogólnych rankingach wszech czasów. Dashboard zapewnia spersonalizowane doświadczenie dzięki statystykom w czasie rzeczywistym, historii gier i śledzeniu sesji, natomiast architektura została zaprojektowana tak, aby z czasem można ją było skalować o dodatkowe gry i funkcje.",
+        features: [
+          "Platforma wielogrowa z Wordle i Hangman w ramach jednego dashboardu",
+          "Uwierzytelnianie oparte na JWT wraz z integracją OAuth Google i Apple",
+          "Trzy poziomy trudności dla każdej gry ze starannie dobranymi pulami słów",
+          "Dynamiczny system punktacji ze śledzeniem rankingów dziennych, tygodniowych i wszech czasów",
+          "Spersonalizowany dashboard ze statystykami w czasie rzeczywistym i postępem sesji",
+          "Walidacja słów przez Free Dictionary API w celu egzekwowania poprawnych słów",
+          "Dzienne limity gier z trwałym śledzeniem sesji",
+          "W pełni responsywny interfejs zoptymalizowany zarówno pod urządzenia mobilne, jak i desktop",
+          "Płynne animacje, w tym odwracanie kafelków, efekt potrząśnięcia i powiadomienia toast",
+          "Skalowalna architektura oparta na komponentach, zaprojektowana z myślą o przyszłej rozbudowie gier",
+        ],
+        live: true,
+        liveUrl: "https://wordplay-site.vercel.app",
+        tags: [
+          "Next.js",
+          "TypeScript",
+          "CSS3",
+          "JWT",
+          "OAuth",
+          "Google Auth",
+          "Apple Auth",
+          "Prisma",
+          "Vercel",
+          "REST API",
           "Responsive Design",
         ],
       },
@@ -2884,6 +3123,8 @@ export const projectsTranslations = {
           "TF-IDF",
           "JavaScript",
           "jQuery",
+          "Render",
+          "MYSQL",
           "HTML5",
           "CSS3",
           "SMTP",
@@ -2948,6 +3189,38 @@ export const projectsTranslations = {
           "PostgreSQL",
           "HTML5",
           "CSS3",
+          "Responsive Design",
+        ],
+      },
+      {
+        name: "Wordplay (Piattaforma competitiva di giochi di parole)",
+        description:
+          "Wordplay è una piattaforma full-stack competitiva per giochi di parole, progettata per riunire più giochi basati sulle parole in un’unica esperienza unificata. Sviluppata con Next.js e TypeScript, la piattaforma offre ai giocatori un ambiente strutturato in cui possono mettersi alla prova con diversi giochi, monitorare le proprie prestazioni e competere nelle classifiche. Attualmente la piattaforma include Wordle e Hangman, ciascuno con più livelli di difficoltà e raccolte di parole accuratamente selezionate. L’autenticazione è gestita sia tramite login basato su JWT sia tramite provider OAuth, inclusi Google e Apple, garantendo un’esperienza di onboarding fluida. Un sistema di punteggio dinamico premia i giocatori in base alla difficoltà e alle prestazioni; i punteggi vengono salvati in modo persistente nelle classifiche giornaliere, settimanali e di tutti i tempi. Il dashboard offre un’esperienza personalizzata con statistiche in tempo reale, cronologia delle partite e monitoraggio delle sessioni, mentre l’architettura è progettata per scalare nel tempo con giochi e funzionalità aggiuntive.",
+        features: [
+          "Piattaforma multigioco con Wordle e Hangman sotto un dashboard unificato",
+          "Autenticazione basata su JWT insieme all’integrazione OAuth di Google e Apple",
+          "Tre livelli di difficoltà per ogni gioco con raccolte di parole accuratamente selezionate",
+          "Sistema di punteggio dinamico con monitoraggio delle classifiche giornaliere, settimanali e di tutti i tempi",
+          "Dashboard personalizzato con statistiche in tempo reale e avanzamento della sessione",
+          "Validazione del dizionario tramite Free Dictionary API per garantire l’uso di parole valide",
+          "Limiti giornalieri di gioco con monitoraggio persistente delle sessioni",
+          "Interfaccia completamente responsive ottimizzata sia per mobile che per desktop",
+          "Animazioni fluide, tra cui rotazione delle tessere, feedback di scuotimento e notifiche toast",
+          "Architettura scalabile basata su componenti, progettata per future espansioni dei giochi",
+        ],
+        live: true,
+        liveUrl: "https://wordplay-site.vercel.app",
+        tags: [
+          "Next.js",
+          "TypeScript",
+          "CSS3",
+          "JWT",
+          "OAuth",
+          "Google Auth",
+          "Apple Auth",
+          "Prisma",
+          "Vercel",
+          "REST API",
           "Responsive Design",
         ],
       },
