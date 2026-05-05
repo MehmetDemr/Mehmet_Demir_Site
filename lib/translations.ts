@@ -1607,7 +1607,7 @@ export const projectsTranslations = {
           "Decoupled microservice architecture for independent AI model updates",
         ],
         live: true,
-        liveUrl: "https://blogy-production-b6d8.up.railway.app",
+        liveUrl: "https://blogy-ee8w.onrender.com",
         tags: [
           "C#",
           "ASP.NET Core",
@@ -1825,7 +1825,7 @@ export const projectsTranslations = {
           "Bağımsız yapay zeka modeli güncellemeleri için ayrıştırılmış mikro hizmet mimarisi",
         ],
         live: true,
-        liveUrl: "https://blogy-production-b6d8.up.railway.app",
+        liveUrl: "https://blogy-ee8w.onrender.com",
         tags: [
           "C#",
           "ASP.NET Core",
@@ -2039,7 +2039,7 @@ export const projectsTranslations = {
           "Entkoppelte Mikroservice-Architektur für unabhängige KI-Modell-Updates",
         ],
         live: true,
-        liveUrl: "https://blogy-production-b6d8.up.railway.app",
+        liveUrl: "https://blogy-ee8w.onrender.com",
         tags: [
           "C#",
           "ASP.NET Core",
@@ -2253,7 +2253,7 @@ export const projectsTranslations = {
           "Развязанная микросервисная архитектура для независимого обновления ИИ-модели",
         ],
         live: true,
-        liveUrl: "https://blogy-production-b6d8.up.railway.app",
+        liveUrl: "https://blogy-ee8w.onrender.com",
         tags: [
           "C#",
           "ASP.NET Core",
@@ -2467,7 +2467,7 @@ export const projectsTranslations = {
           "Arquitectura de microservicios desacoplada para actualizaciones independientes del modelo de IA",
         ],
         live: true,
-        liveUrl: "https://blogy-production-b6d8.up.railway.app",
+        liveUrl: "https://blogy-ee8w.onrender.com",
         tags: [
           "C#",
           "ASP.NET Core",
@@ -2681,7 +2681,7 @@ export const projectsTranslations = {
           "Architecture microservice découplée pour les mises à jour indépendantes du modèle d'IA",
         ],
         live: true,
-        liveUrl: "https://blogy-production-b6d8.up.railway.app",
+        liveUrl: "https://blogy-ee8w.onrender.com",
 
         tags: [
           "C#",
@@ -2896,7 +2896,7 @@ export const projectsTranslations = {
           "Rozdzielona architektura mikroserwisów dla niezależnych aktualizacji modeli AI",
         ],
         live: true,
-        liveUrl: "https://blogy-production-b6d8.up.railway.app",
+        liveUrl: "https://blogy-ee8w.onrender.com",
         tags: [
           "C#",
           "ASP.NET Core",
@@ -3110,7 +3110,7 @@ export const projectsTranslations = {
           "Architettura a microservizi disaccoppiata per aggiornamenti indipendenti del modello IA",
         ],
         live: true,
-        liveUrl: "https://blogy-production-b6d8.up.railway.app",
+        liveUrl: "https://blogy-ee8w.onrender.com",
 
         tags: [
           "C#",
