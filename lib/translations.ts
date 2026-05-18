@@ -213,7 +213,7 @@ export const bodyTranslations = {
       heading: "Developing modern\nfull-stack architecture",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "I build scalable and high-performance web applications using {Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js}, focusing on robust backend architecture, clean frontend systems, and efficient, maintainable development workflows.",
+        "I build scalable and high-performance web applications using {Node.js}, {Express.js}, {NestJs}, {C#/.NET}, {React}, {Next.js}, focusing on robust backend architecture, clean frontend systems, and efficient, maintainable development workflows.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Explore My Experience",
       btnContact: "Contact Me",
@@ -348,7 +348,7 @@ export const bodyTranslations = {
         {
           title: "Back-End Development Expertise",
           content:
-            "I develop back-end systems using Node.js, Express.js, Nest.js, and C#/.NET, designing scalable architectures and high-performance APIs with a strong emphasis on maintainability, security, and clean code practices.",
+            "I develop back-end systems using Node.js, Express.js, NestJs, and C#/.NET, designing scalable architectures and high-performance APIs with a strong emphasis on maintainability, security, and clean code practices.",
         },
         {
           title: "Mobile Development Expertise",
@@ -380,7 +380,7 @@ export const bodyTranslations = {
       heading: "Modern full-stack mimari\ngeliştirme",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "{Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js} kullanarak; ölçeklenebilir ve yüksek performanslı web uygulamaları geliştiriyor; güçlü backend mimarisine, temiz frontend sistemlerine ve verimli, sürdürülebilir geliştirme iş akışlarına odaklanıyorum.",
+        "{Node.js}, {Express.js}, {NestJs}, {C#/.NET}, {React}, {Next.js} kullanarak; ölçeklenebilir ve yüksek performanslı web uygulamaları geliştiriyor; güçlü backend mimarisine, temiz frontend sistemlerine ve verimli, sürdürülebilir geliştirme iş akışlarına odaklanıyorum.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Deneyimlerimi Keşfedin",
       btnContact: "Benimle İletişime Geçin",
@@ -513,7 +513,7 @@ export const bodyTranslations = {
         {
           title: "Back-End Geliştirme Uzmanlığı",
           content:
-            "Node.js, Express.js, Nest.js ve C#/.NET kullanarak back-end sistemleri geliştiriyor; sürdürülebilirlik, güvenlik ve temiz kod pratiklerine güçlü bir vurgu yaparak ölçeklenebilir mimariler ve yüksek performanslı API'ler tasarlıyorum.",
+            "Node.js, Express.js, NestJs ve C#/.NET kullanarak back-end sistemleri geliştiriyor; sürdürülebilirlik, güvenlik ve temiz kod pratiklerine güçlü bir vurgu yaparak ölçeklenebilir mimariler ve yüksek performanslı API'ler tasarlıyorum.",
         },
         {
           title: "Mobil Geliştirme Uzmanlığı",
@@ -545,7 +545,7 @@ export const bodyTranslations = {
       heading: "Entwicklung moderner\nFull-Stack-Architektur",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "Ich entwickle skalierbare und hochperformante Webanwendungen mit {Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js}, mit Fokus auf robuste Backend-Architektur, saubere Frontend-Systeme und effiziente, wartbare Entwicklungs-Workflows.",
+        "Ich entwickle skalierbare und hochperformante Webanwendungen mit {Node.js}, {Express.js}, {NestJs}, {C#/.NET}, {React}, {Next.js}, mit Fokus auf robuste Backend-Architektur, saubere Frontend-Systeme und effiziente, wartbare Entwicklungs-Workflows.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Meine Erfahrung entdecken",
       btnContact: "Kontaktieren Sie mich",
@@ -678,7 +678,7 @@ export const bodyTranslations = {
         {
           title: "Back-End Entwicklungskompetenz",
           content:
-            "Ich entwickle Back-End-Systeme mit Node.js, Express.js, Nest.js und C#/.NET und entwerfe skalierbare Architekturen sowie hochperformante APIs mit starkem Fokus auf Wartbarkeit, Sicherheit und Clean-Code-Praktiken.",
+            "Ich entwickle Back-End-Systeme mit Node.js, Express.js, NestJs und C#/.NET und entwerfe skalierbare Architekturen sowie hochperformante APIs mit starkem Fokus auf Wartbarkeit, Sicherheit und Clean-Code-Praktiken.",
         },
         {
           title: "Mobile Entwicklungskompetenz",
@@ -710,7 +710,7 @@ export const bodyTranslations = {
       heading: "Разработка современной\nfull-stack архитектуры",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "Я создаю масштабируемые и высокопроизводительные веб-приложения с использованием {Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js}, уделяя особое внимание надежной архитектуре backend, чистым системам frontend и эффективным, поддерживаемым процессам разработки.",
+        "Я создаю масштабируемые и высокопроизводительные веб-приложения с использованием {Node.js}, {Express.js}, {NestJs}, {C#/.NET}, {React}, {Next.js}, уделяя особое внимание надежной архитектуре backend, чистым системам frontend и эффективным, поддерживаемым процессам разработки.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Посмотреть мой опыт",
       btnContact: "Связаться со мной",
@@ -843,7 +843,7 @@ export const bodyTranslations = {
         {
           title: "Экспертиза в Back-End разработке",
           content:
-            "Я разрабатываю back-end системы с использованием Node.js, Express.js, Nest.js и C#/.NET, проектируя масштабируемые архитектуры и высокопроизводительные API с упором на удобство сопровождения, безопасность и практику чистого кода.",
+            "Я разрабатываю back-end системы с использованием Node.js, Express.js, NestJs и C#/.NET, проектируя масштабируемые архитектуры и высокопроизводительные API с упором на удобство сопровождения, безопасность и практику чистого кода.",
         },
         {
           title: "Экспертиза в мобильной разработке",
@@ -875,7 +875,7 @@ export const bodyTranslations = {
       heading: "Desarrollo de arquitectura\nfull-stack moderna",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "Desarrollo aplicaciones web escalables y de alto rendimiento utilizando {Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js}, centrándome en una arquitectura backend robusta, sistemas frontend limpios y flujos de trabajo de desarrollo eficientes y mantenibles.",
+        "Desarrollo aplicaciones web escalables y de alto rendimiento utilizando {Node.js}, {Express.js}, {NestJs}, {C#/.NET}, {React}, {Next.js}, centrándome en una arquitectura backend robusta, sistemas frontend limpios y flujos de trabajo de desarrollo eficientes y mantenibles.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Explorar mi experiencia",
       btnContact: "Contáctame",
@@ -1008,7 +1008,7 @@ export const bodyTranslations = {
         {
           title: "Experiencia en Desarrollo Backend",
           content:
-            "Desarrollo sistemas backend utilizando Node.js, Express.js, Nest.js y C#/.NET, diseñando arquitecturas escalables y APIs de alto rendimiento con un fuerte énfasis en la mantenibilidad, la seguridad y las prácticas de código limpio.",
+            "Desarrollo sistemas backend utilizando Node.js, Express.js, NestJs y C#/.NET, diseñando arquitecturas escalables y APIs de alto rendimiento con un fuerte énfasis en la mantenibilidad, la seguridad y las prácticas de código limpio.",
         },
         {
           title: "Experiencia en Desarrollo Móvil",
@@ -1040,7 +1040,7 @@ export const bodyTranslations = {
       heading: "Développement d'architectures\nfull-stack modernes",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "Je conçois des applications web évolutives et performantes avec {Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js}, en mettant l'accent sur une architecture backend robuste, des systèmes frontend épurés et des workflows de développement efficaces et maintenables.",
+        "Je conçois des applications web évolutives et performantes avec {Node.js}, {Express.js}, {NestJs}, {C#/.NET}, {React}, {Next.js}, en mettant l'accent sur une architecture backend robuste, des systèmes frontend épurés et des workflows de développement efficaces et maintenables.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Découvrir mon expérience",
       btnContact: "Me contacter",
@@ -1173,7 +1173,7 @@ export const bodyTranslations = {
         {
           title: "Expertise en Développement Back-End",
           content:
-            "Je développe des systèmes back-end avec Node.js, Express.js, Nest.js et C#/.NET, en concevant des architectures évolutives et des API performantes, avec un accent particulier sur la maintenabilité, la sécurité et les pratiques de code propre.",
+            "Je développe des systèmes back-end avec Node.js, Express.js, NestJs et C#/.NET, en concevant des architectures évolutives et des API performantes, avec un accent particulier sur la maintenabilité, la sécurité et les pratiques de code propre.",
         },
         {
           title: "Expertise en Développement Mobile",
@@ -1205,7 +1205,7 @@ export const bodyTranslations = {
       heading: "Tworzenie nowoczesnych\narchitektur full-stack",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "Buduję skalowalne i wydajne aplikacje webowe przy użyciu {Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js}, koncentrując się na solidnej architekturze backendowej, przejrzystych systemach frontendowych oraz wydajnych i łatwych w utrzymaniu procesach programistycznych.",
+        "Buduję skalowalne i wydajne aplikacje webowe przy użyciu {Node.js}, {Express.js}, {NestJs}, {C#/.NET}, {React}, {Next.js}, koncentrując się na solidnej architekturze backendowej, przejrzystych systemach frontendowych oraz wydajnych i łatwych w utrzymaniu procesach programistycznych.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Poznaj moje doświadczenie",
       btnContact: "Skontaktuj się ze mną",
@@ -1338,7 +1338,7 @@ export const bodyTranslations = {
         {
           title: "Ekspertyza w Back-Endzie",
           content:
-            "Tworzę systemy back-endowe z wykorzystaniem Node.js, Express.js, Nest.js oraz C#/.NET, projektując skalowalne architektury i wysokowydajne API, kładąc duży nacisk na łatwość utrzymania, bezpieczeństwo oraz zasady czystego kodu.",
+            "Tworzę systemy back-endowe z wykorzystaniem Node.js, Express.js, NestJs oraz C#/.NET, projektując skalowalne architektury i wysokowydajne API, kładąc duży nacisk na łatwość utrzymania, bezpieczeństwo oraz zasady czystego kodu.",
         },
         {
           title: "Ekspertyza w Rozwiązaniach Mobilnych",
@@ -1370,7 +1370,7 @@ export const bodyTranslations = {
       heading: "Sviluppo di moderne\narchitetture full-stack",
       role: "Full-Stack Developer • Mehmet Demir",
       description:
-        "Sviluppo applicazioni web scalabili e ad alte prestazioni utilizzando {Node.js}, {Express.js}, {Nest.js}, {C#/.NET}, {React}, {Next.js}, concentrandomi su un'architettura backend robusta, sistemi frontend puliti e flussi di lavoro efficienti e mantenibili.",
+        "Sviluppo applicazioni web scalabili e ad alte prestazioni utilizzando {Node.js}, {Express.js}, {NestJs}, {C#/.NET}, {React}, {Next.js}, concentrandomi su un'architettura backend robusta, sistemi frontend puliti e flussi di lavoro efficienti e mantenibili.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
       btnExplore: "Esplora la mia esperienza",
       btnContact: "Contattami",
@@ -1503,7 +1503,7 @@ export const bodyTranslations = {
         {
           title: "Esperienza nel Sviluppo Back-End",
           content:
-            "Sviluppo sistemi back-end utilizzando Node.js, Express.js, Nest.js e C#/.NET, progettando architetture scalabili e API ad alte prestazioni con una forte enfasi sulla manutenibilità, la sicurezza e le pratiche di clean code.",
+            "Sviluppo sistemi back-end utilizzando Node.js, Express.js, NestJs e C#/.NET, progettando architetture scalabili e API ad alte prestazioni con una forte enfasi sulla manutenibilità, la sicurezza e le pratiche di clean code.",
         },
         {
           title: "Esperienza nel Sviluppo Mobile",
