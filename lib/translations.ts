@@ -242,6 +242,7 @@ export const bodyTranslations = {
           { name: "Java", color: "#007396" },
           { name: "Docker", color: "#F7DF1E" },
           { name: "REST API", color: "#00d9a3" },
+          { name: "GraphQL", color: "#673DE6" },
         ],
         Frontend: [
           { name: "React", color: "#61DAFB" },
@@ -409,6 +410,7 @@ export const bodyTranslations = {
           { name: "Java", color: "#007396" },
           { name: "Docker", color: "#F7DF1E" },
           { name: "REST API", color: "#00d9a3" },
+          { name: "GraphQL", color: "#673DE6" },
         ],
         Frontend: [
           { name: "React", color: "#61DAFB" },
@@ -574,6 +576,7 @@ export const bodyTranslations = {
           { name: "Java", color: "#007396" },
           { name: "Docker", color: "#F7DF1E" },
           { name: "REST API", color: "#00d9a3" },
+          { name: "GraphQL", color: "#673DE6" },
         ],
         Frontend: [
           { name: "React", color: "#61DAFB" },
@@ -739,6 +742,7 @@ export const bodyTranslations = {
           { name: "Java", color: "#007396" },
           { name: "Docker", color: "#F7DF1E" },
           { name: "REST API", color: "#00d9a3" },
+          { name: "GraphQL", color: "#673DE6" },
         ],
         Frontend: [
           { name: "React", color: "#61DAFB" },
@@ -904,6 +908,7 @@ export const bodyTranslations = {
           { name: "Java", color: "#007396" },
           { name: "Docker", color: "#F7DF1E" },
           { name: "REST API", color: "#00d9a3" },
+          { name: "GraphQL", color: "#673DE6" },
         ],
         Frontend: [
           { name: "React", color: "#61DAFB" },
@@ -1069,6 +1074,7 @@ export const bodyTranslations = {
           { name: "Java", color: "#007396" },
           { name: "Docker", color: "#F7DF1E" },
           { name: "REST API", color: "#00d9a3" },
+          { name: "GraphQL", color: "#673DE6" },
         ],
         Frontend: [
           { name: "React", color: "#61DAFB" },
@@ -1234,6 +1240,7 @@ export const bodyTranslations = {
           { name: "Java", color: "#007396" },
           { name: "Docker", color: "#F7DF1E" },
           { name: "REST API", color: "#00d9a3" },
+          { name: "GraphQL", color: "#673DE6" },
         ],
         Frontend: [
           { name: "React", color: "#61DAFB" },
@@ -1399,6 +1406,7 @@ export const bodyTranslations = {
           { name: "Java", color: "#007396" },
           { name: "Docker", color: "#F7DF1E" },
           { name: "REST API", color: "#00d9a3" },
+          { name: "GraphQL", color: "#673DE6" },
         ],
         Frontend: [
           { name: "React", color: "#61DAFB" },
