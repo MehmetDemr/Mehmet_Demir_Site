@@ -200,9 +200,7 @@ export default function Home() {
                   </a>
 
                   <a
-                    href="https://mail.google.com/mail/?view=cm&to=demirmehmet226648@gmail.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="#contact"
                     className={styles.btnSecondary}
                   >
                     {t.hero.btnContact}
