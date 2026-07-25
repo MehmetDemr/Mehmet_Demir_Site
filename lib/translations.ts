@@ -90,7 +90,7 @@ export const navTranslations = {
 
 export const footerTranslations = {
   tr: {
-    role: "Full-Stack Developer",
+    role: "Full-Stack Geliştirici",
     contact: "İletişim",
     skills: "Yetenekler",
     education: "Eğitim",
@@ -221,7 +221,7 @@ export const bodyTranslations = {
 
     // Stats Bar
     stats: {
-      experience: { num: "2+", label: "Years of Experience" },
+      experience: { num: "3+", label: "Years of Experience" },
       technologies: { num: "30+", label: "Technologies" },
       projects: { num: "20+", label: "Projects" },
     },
@@ -377,9 +377,9 @@ export const bodyTranslations = {
   tr: {
     // Hero Section
     hero: {
-      tag: "Full-Stack Developer",
-      heading: "Modern full-stack mimari\ngeliştirme",
-      role: "Full-Stack Developer • Mehmet Demir",
+      tag: "Full-Stack Geliştirici",
+      heading: "Modern full-stack\n mimari geliştirme",
+      role: "Full-Stack Geliştirici • Mehmet Demir",
       description:
         "{Node.js}, {Express.js}, {NestJs}, {C#/.NET}, {React}, {Next.js} kullanarak; ölçeklenebilir ve yüksek performanslı web uygulamaları geliştiriyor; güçlü backend mimarisine, temiz frontend sistemlerine ve verimli, sürdürülebilir geliştirme iş akışlarına odaklanıyorum.",
       highlights: ["Node.js", "Express.js", "C#/.NET", "React", "Next.js"],
@@ -389,7 +389,7 @@ export const bodyTranslations = {
 
     // Stats Bar
     stats: {
-      experience: { num: "2+", label: "Yıl Deneyim" },
+      experience: { num: "3+", label: "Yıl Deneyim" },
       technologies: { num: "30+", label: "Teknoloji" },
       projects: { num: "20+", label: "Proje" },
     },
@@ -452,28 +452,28 @@ export const bodyTranslations = {
       items: [
         {
           company: "Level End Yazılım A.Ş",
-          role: "Full-Stack Developer",
+          role: "Full-Stack Geliştirici",
           type: "Full Time",
           period: "Şubat 2026 — Mayıs 2026",
           current: false,
         },
         {
           company: "Level End Yazılım A.Ş",
-          role: "Full-Stack Developer",
+          role: "Full-Stack Geliştirici",
           type: "Part Time",
           period: "Ağustos 2025 — Şubat 2026",
           current: false,
         },
         {
           company: "Level End Yazılım A.Ş",
-          role: "Full-Stack Developer",
+          role: "Full-Stack Geliştirici",
           type: "Intern",
           period: "Haziran 2025 — Temmuz 2025",
           current: false,
         },
         {
           company: "Ottopus A.Ş",
-          role: "Full-Stack Developer",
+          role: "Full-Stack Geliştirici",
           type: "Intern",
           period: "Temmuz 2024 — Haziran 2025",
           current: false,
@@ -501,11 +501,11 @@ export const bodyTranslations = {
     about: {
       tag: "Hakkımda",
       title: "Hakkımda",
-      subtitle: "Full-Stack Developer Genel Bakış",
+      subtitle: "Full-Stack Geliştirici Genel Bakış",
       items: [
         {
-          title: "Full-Stack Developer Mehmet Demir Kimdir?",
-          content: `Bakırçay Üniversitesi Bilgisayar Mühendisliği mezunu Full-Stack Developer Mehmet Demir'im. Uzmanlığım modern web teknolojileri, mobil uygulama geliştirme ve SQL tabanlı veritabanı tasarımını kapsamaktadır. Son 3 yılı aşkın süredir, hem bireysel hem de dinamik ekipler içinde çalışarak birden fazla projeyi başarıyla geliştirip teslim ettim. Yüksek performanslı, ölçeklenebilir ve kullanıcı odaklı çözümler üretme konusunda tutkuluyum ve yeni gelişen teknolojilerdeki bilgimi sürekli genişletmeye çalışıyorum.`,
+          title: "Full-Stack Geliştirici Mehmet Demir Kimdir?",
+          content: `Bakırçay Üniversitesi Bilgisayar Mühendisliği mezunu Full-Stack Geliştirici Mehmet Demir'im. Uzmanlığım modern web teknolojileri, mobil uygulama geliştirme ve SQL tabanlı veritabanı tasarımını kapsamaktadır. Son 3 yılı aşkın süredir, hem bireysel hem de dinamik ekipler içinde çalışarak birden fazla projeyi başarıyla geliştirip teslim ettim. Yüksek performanslı, ölçeklenebilir ve kullanıcı odaklı çözümler üretme konusunda tutkuluyum ve yeni gelişen teknolojilerdeki bilgimi sürekli genişletmeye çalışıyorum.`,
         },
         {
           title: "Front-End Geliştirme Uzmanlığı",
@@ -555,7 +555,7 @@ export const bodyTranslations = {
 
     // Stats Bar
     stats: {
-      experience: { num: "2+", label: "Jahre Erfahrung" },
+      experience: { num: "3+", label: "Jahre Erfahrung" },
       technologies: { num: "30+", label: "Technologien" },
       projects: { num: "20+", label: "Projekte" },
     },
@@ -721,7 +721,7 @@ export const bodyTranslations = {
 
     // Stats Bar
     stats: {
-      experience: { num: "2+", label: "Лет опыта" },
+      experience: { num: "3+", label: "Лет опыта" },
       technologies: { num: "30+", label: "Технологий" },
       projects: { num: "20+", label: "Проектов" },
     },
@@ -887,7 +887,7 @@ export const bodyTranslations = {
 
     // Stats Bar
     stats: {
-      experience: { num: "2+", label: "Años de Experiencia" },
+      experience: { num: "3+", label: "Años de Experiencia" },
       technologies: { num: "30+", label: "Tecnologías" },
       projects: { num: "20+", label: "Proyectos" },
     },
@@ -1053,7 +1053,7 @@ export const bodyTranslations = {
 
     // Stats Bar
     stats: {
-      experience: { num: "2+", label: "Années d'expérience" },
+      experience: { num: "3+", label: "Années d'expérience" },
       technologies: { num: "30+", label: "Technologies" },
       projects: { num: "20+", label: "Projets" },
     },
@@ -1219,7 +1219,7 @@ export const bodyTranslations = {
 
     // Stats Bar
     stats: {
-      experience: { num: "2+", label: "Lata doświadczenia" },
+      experience: { num: "3+", label: "Lata doświadczenia" },
       technologies: { num: "30+", label: "Technologie" },
       projects: { num: "20+", label: "Projekty" },
     },
@@ -1385,7 +1385,7 @@ export const bodyTranslations = {
 
     // Stats Bar
     stats: {
-      experience: { num: "2+", label: "Anni di Esperienza" },
+      experience: { num: "3+", label: "Anni di Esperienza" },
       technologies: { num: "30+", label: "Tecnologie" },
       projects: { num: "20+", label: "Progetti" },
     },

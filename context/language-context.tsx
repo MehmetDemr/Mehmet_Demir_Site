@@ -31,7 +31,7 @@ type LanguageContextType = {
 const LanguageContext = createContext<LanguageContextType | null>(null);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>("en");
+  const [locale, setLocaleState] = useState<Locale>("tr");
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
