@@ -9,18 +9,9 @@ import {
   type ReactNode,
 } from "react";
 
-export type Locale = "tr" | "en" | "de" | "ru" | "es" | "fr" | "pl" | "it";
+export type Locale = "tr" | "en";
 
-const supportedLocales: Locale[] = [
-  "tr",
-  "en",
-  "de",
-  "ru",
-  "es",
-  "fr",
-  "pl",
-  "it",
-];
+const supportedLocales: Locale[] = ["tr", "en"];
 
 type LanguageContextType = {
   locale: Locale;
