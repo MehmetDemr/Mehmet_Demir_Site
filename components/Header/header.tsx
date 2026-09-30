@@ -20,6 +20,7 @@ export default function Header() {
     { label: t.experience, href: "/#experience" },
     { label: t.education, href: "/#education" },
     { label: t.projects, href: "/myprojects" },
+    { label: t.services, href: "/services" },
     { label: t.about, href: "/#about" },
     { label: t.contact, href: "/#contact" },
   ];
