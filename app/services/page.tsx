@@ -93,20 +93,64 @@ export default function Services() {
                   </div>
 
                   <div className={styles.cardBody}>
-                    <ul className={styles.featureList}>
-                      {service.features.map((f, fi) => (
-                        <li key={fi} className={styles.featureItem}>
-                          <span className={styles.featureDot} />
-                          {f}
-                        </li>
+                    {"featureGroups" in service &&
+                      service.featureGroups.map((group, gi) => (
+                        <div key={gi} className={styles.featureGroup}>
+                          <h3 className={styles.featureGroupTitle}>
+                            {group.title}
+                          </h3>
+                          <ul className={styles.featureList}>
+                            {group.items.map((f, fi) => (
+                              <li key={fi} className={styles.featureItem}>
+                                <span className={styles.featureDot} />
+                                {f}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
                       ))}
-                    </ul>
+                    {"note" in service && (
+                      <p className={styles.cardNote}>{service.note}</p>
+                    )}
+                    {service.features.length > 0 && (
+                      <ul className={styles.featureList}>
+                        {service.features.map((f, fi) => (
+                          <li key={fi} className={styles.featureItem}>
+                            <span className={styles.featureDot} />
+                            {f}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
 
                   <div className={styles.cardFooter}>
                     
 
-                    {url ? (
+                    {"links" in service ? (
+                      (service.links as readonly { label: string; url: string }[]).map((link, li) =>
+                        link.url ? (
+                          <a
+                            key={li}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={styles.liveLink}
+                          >
+                            <ExternalLink size={14} strokeWidth={1.5} />
+                            {link.label}
+                          </a>
+                        ) : (
+                          <span
+                            key={li}
+                            className={`${styles.liveLink} ${styles.liveLinkDisabled}`}
+                            aria-disabled="true"
+                          >
+                            {link.label}
+                          </span>
+                        ),
+                      )
+                    ) : url ? (
                       <a
                         href={url}
                         target="_blank"

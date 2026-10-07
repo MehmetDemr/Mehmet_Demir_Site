@@ -833,16 +833,64 @@ export const servicesTranslations = {
       {
         name: "QR Menu (Digital Menu System for Restaurants & Cafes)",
         description:
-          "A modern QR menu service for restaurants, cafes, and any venue that serves food and drinks. Customers scan a code and instantly see your full menu on their own device, while you manage everything from a simple admin panel without touching any code.",
-        features: [
-          "Fully responsive design that works on phones, tablets, and computers",
-          "Product detail pages with ingredients and allergen information",
-          "Admin panel to add products, add categories, and edit your menu anytime",
-          "Stock tracking to mark products as available or out of stock",
-          "Customizable color palettes to match your brand identity",
+          "A modern digital menu service for restaurants, cafes, and food and beverage businesses. Your customers reach your menu instantly on their own device, while you manage your menu, stock, and brand look from a single admin panel, without writing any code.",
+        features: [],
+        featureGroups: [
+          {
+            title: "Customer side",
+            items: [
+              "Responsive design for phones, tablets, and computers",
+              "A dedicated menu address per business (/business-name) and category pages (/business-name/category)",
+              "Easy browsing with image-based category cards",
+              "Product cards with ingredients, allergen info, preparation time, and calories",
+              "A business landing page: introduction, featured products, contact, address, opening hours, and social links",
+              "Optionally show or hide prices, with currency selection",
+              "A branded 404 page that matches the business's colors",
+            ],
+          },
+          {
+            title: "Admin panel",
+            items: [
+              "Separate, secure login for each business (email and password)",
+              "\"Forgot password\" flow: single-use, time-limited link sent by email",
+              "Add, edit, delete, reorder, activate/deactivate, search, and paginate categories and products",
+              "Per-product image, description, price, calories, preparation time, allergens, and ingredients",
+              "Manage the allergen list",
+              "Edit business info: logo, cover image, phone, address, opening hours, social media",
+              "Send support requests from the panel",
+            ],
+          },
+          {
+            title: "Stock tracking",
+            items: [
+              "Track stock items by quantity and unit",
+              "Link products to recipes made of these items",
+              "Stock decreases automatically when a sale is recorded, with low-stock warnings",
+              "Export the stock list to Excel",
+            ],
+          },
+          {
+            title: "Brand identity",
+            items: [
+              "Color palette (primary, secondary, background, text, accent, etc.) and heading/body font selection",
+              "Contrast check for color readability",
+              "Revert to the previous design in one click",
+            ],
+          },
+          {
+            title: "Bulk operations",
+            items: [
+              "Ready-made Excel templates for products, categories, allergens, and stock",
+              "Import your whole menu from Excel in one go",
+            ],
+          },
         ],
-        live: false,
+        live: true,
         linkUrl: "",
+        links: [
+          { label: "View Menu", url: "https://restaurant-qr-menu-two.vercel.app/qr-menu" },
+          { label: "Admin Panel", url: "https://restaurant-qr-menu-two.vercel.app/qr-menu/business" },
+        ],
         tags: [
           "QR Code",
           "Admin Panel",
@@ -853,24 +901,137 @@ export const servicesTranslations = {
         ],
       },
       {
-        name: "Personal Website Design (Interactive & Professional)",
+        name: "3D & Interactive E-Commerce Website Design",
         description:
-          "A custom-designed personal website that presents who you are and what you do. Whether you want a clean professional look or an interactive, eye-catching experience, I build a site that reflects your personality and makes a strong first impression.",
-        features: [
-          "Professional or interactive design tailored to your style",
-          "Fast, modern, and fully responsive on every device",
-          "Sections for about, projects, experience, and contact",
-          "Smooth animations and engaging interactions",
-          "SEO-friendly structure for better visibility on search engines",
-          "Multi-language support and downloadable resume integration",
+          "Don't lock your product inside a photo gallery. Let your customers rotate it in 3D right in the browser, inspect it from every angle, switch its color instantly, and add it to the cart from the same page. I design and code a smooth, memorable shopping experience made for your brand.",
+        features: [],
+        featureGroups: [
+          {
+            title: "Customer side",
+            items: [
+              "Real-time 3D product viewing: drag to rotate, inspect from every angle",
+              "Scroll-aware scenes: as the page scrolls, the product turns and zooms on its own, taking a different pose in the detail, sole, and color sections",
+              "Instant color selection without reloading the product; the page background and text colors change with the selected color",
+              "Category selection (e.g. men/women) with the model, copy, and product list changing accordingly",
+              "Size selection, add to cart, cart drawer, quantity changes, and total price",
+              "Scene-matched sections for product features, highlights, and technical details",
+              "Discounted price display and a catalog of product cards",
+              "Smooth scrolling and fluid animations on page transitions",
+              "Responsive design for phones, tablets, and computers",
+              "Accessibility details such as keyboard and screen reader support",
+            ],
+          },
+          {
+            title: "Brand identity",
+            items: [
+              "Color palette, typography, and page atmosphere are designed from scratch around your brand",
+              "Separate scene colors for each product color",
+              "No templates: a page flow built specifically for your product",
+            ],
+          },
+          {
+            title: "Technical foundation",
+            items: [
+              "A modern, fast, and extensible stack built with Next.js, React, Three.js, and React Three Fiber",
+              "Preparing and optimizing your product model (GLB/3D file) for the web",
+              "If you don't have a 3D model, guidance on modeling from product photos or design files",
+              "Image and model optimization for fast loading",
+            ],
+          },
+          {
+            title: "Optional add-ons",
+            items: [
+              "Payment infrastructure integration",
+              "Product, stock, and order management panel",
+              "Multi-language and multi-currency",
+              "Content management system for adding and editing products",
+            ],
+          },
+          {
+            title: "Who is it for?",
+            items: [
+              "For brands selling products whose shape, texture, and details influence the sale, such as shoes, watches, furniture, electronics, and accessories. If you want to stand out from competitors in the first second and show your product by \"walking customers around it\", this service is for you.",
+            ],
+          },
         ],
-        live: false,
-        linkUrl: "",
+        live: true,
+        linkUrl: "https://marketing-omega-ten-91.vercel.app",
+        tags: [
+          "Next.js",
+          "React",
+          "Three.js",
+          "React Three Fiber",
+          "3D",
+          "E-Commerce",
+        ],
+      },
+      {
+        name: "Interactive Showcase Page for Your Business",
+        description:
+          "The first time someone finds your business online, they form an impression before they ever visit. I design modern, interactive showcase pages made for your brand. It won't be an ordinary info page: it draws visitors in from the first second and makes your business memorable.",
+        features: [],
+        featureGroups: [
+          {
+            title: "Visitor experience",
+            items: [
+              "The page unfolds with lively, fluid animations as you scroll.",
+              "Presents your products, services, and strengths in clear, visual-first sections.",
+              "Works smoothly on phones, tablets, and computers.",
+              "Address, opening hours, and phone are one tap away: get directions on the map or call directly.",
+              "If you like, a QR menu and social media links are added to the page.",
+            ],
+          },
+          {
+            title: "Made for your business",
+            items: [
+              "Colors, visuals, copy, and content are designed from scratch around your brand.",
+              "Your business info is managed in one place and reflected in every section of the page.",
+              "Adapted to your industry: restaurant, cafe, barber, boutique, office, and more.",
+            ],
+          },
+          {
+            title: "How we work",
+            items: [
+              "I listen to understand your business, audience, and needs.",
+              "I prepare a design that fits your brand.",
+              "With your approval, I publish the page.",
+            ],
+          },
+        ],
+        note: "Note: The work shown here is a prototype. It demonstrates the design language, animations, and page flow. The final page is shaped by your content, visuals, and needs.",
+        live: true,
+        linkUrl: "https://interactive-business-project.vercel.app",
         tags: [
           "Next.js",
           "TypeScript",
           "Custom Design",
           "Animations",
+          "SEO",
+          "Responsive Design",
+        ],
+      },
+      {
+        name: "Professional Business Website Made for Your Brand",
+        description:
+          "Your business should look as good online as your menu does. For restaurants, cafes, bakeries, patisseries, and all food and beverage businesses, we build a modern showcase page shaped around your brand identity. The page you see is an example. Content, colors, and sections can be built from scratch for your business.",
+        features: [
+          "A look that's yours: Colors, fonts, and logo are adapted to your brand. The page looks like your business's own page.",
+          "A strong first impression: With an impressive headline, a short intro, and buttons leading straight to the menu or contact, visitors see what you offer on the first screen.",
+          "Sections that tell your story: Sections highlight what sets your business apart (quality, service, experience), your featured products, and how you work. Which sections to include is decided per business.",
+          "Connected to the QR menu: Visitors can jump to your up-to-date digital menu with one click.",
+          "Easy to reach: Address, opening hours, phone, email, and social media accounts are clearly shown. Customers can call or get directions with one tap.",
+          "Works on every device: Runs properly on phones, tablets, and computers, with an easy-to-use mobile menu.",
+          "Fast and tidy: The page loads quickly and stays up to date when your information changes.",
+          "Flexible structure: Sections can be added, removed, or rearranged. This example is a starting point showing how the page prepared for you will look.",
+        ],
+        note: "Result: Your customers find you, trust you, browse your menu, and reach you easily. All on a single page prepared in your brand's voice.",
+        live: true,
+        linkUrl: "https://restaurant-qr-menu-two.vercel.app",
+        tags: [
+          "Next.js",
+          "Custom Design",
+          "Brand Identity",
+          "QR Menu Integration",
           "SEO",
           "Responsive Design",
         ],
@@ -894,16 +1055,64 @@ export const servicesTranslations = {
       {
         name: "QR Menü (Restoran ve Kafeler İçin Dijital Menü Sistemi)",
         description:
-          "Restoranlar, kafeler ve yiyecek-içecek sunan tüm işletmeler için modern bir QR menü hizmeti. Müşterileriniz kodu okutarak menünüze kendi cihazından anında ulaşır; siz ise tek satır kod yazmadan her şeyi basit bir yönetim panelinden yönetirsiniz.",
-        features: [
-          "Telefon, tablet ve bilgisayarda sorunsuz çalışan tamamen uyumlu (responsive) tasarım",
-          "Ürün detay sayfalarında içindekiler ve alerjen bilgileri",
-          "Ürün ekleme, kategori ekleme ve menüyü istediğin zaman düzenleme imkânı sunan yönetim paneli",
-          "Ürünleri stokta var/yok olarak işaretleyebileceğin stok takibi",
-          "Marka kimliğine uygun, istenildiğinde değiştirilebilen renk paletleri",
+          "Restoranlar, kafeler ve yiyecek-içecek işletmeleri için modern bir dijital menü hizmeti. Müşterileriniz menünüze kendi cihazından anında ulaşır. Siz de menünüzü, stoğunuzu ve markanızın görünümünü tek bir yönetim panelinden, kod yazmadan yönetirsiniz.",
+        features: [],
+        featureGroups: [
+          {
+            title: "Müşteri tarafı",
+            items: [
+              "Telefon, tablet ve bilgisayarda uyumlu (responsive) tasarım",
+              "Her işletmeye özel menü adresi (/isletme-adi) ve kategori bazlı sayfalar (/isletme-adi/kategori)",
+              "Görselli kategori kartlarıyla kolay gezinme",
+              "Ürün kartında içindekiler, alerjen bilgisi, hazırlanma süresi ve kalori",
+              "İşletmeye özel açılış sayfası: tanıtım, öne çıkan ürünler, iletişim, adres, çalışma saatleri ve sosyal medya bağlantıları",
+              "Fiyatları isteğe bağlı gösterme veya gizleme, para birimi seçimi",
+              "İşletmenin renklerine uyan, markalı 404 sayfası",
+            ],
+          },
+          {
+            title: "Yönetim paneli",
+            items: [
+              "Her işletmeye ait ayrı, güvenli giriş (e-posta ve şifre)",
+              "\"Şifremi unuttum\" akışı: e-postayla tek kullanımlık, süreli bağlantı",
+              "Kategori ve ürün ekleme, düzenleme, silme, sıralama, aktif/pasif yapma, arama ve sayfalama",
+              "Ürün başına görsel, açıklama, fiyat, kalori, hazırlanma süresi, alerjen ve içerik tanımlama",
+              "Alerjen listesini yönetme",
+              "İşletme bilgilerini düzenleme: logo, kapak görseli, telefon, adres, çalışma saatleri, sosyal medya",
+              "Panelden destek talebi gönderme",
+            ],
+          },
+          {
+            title: "Stok takibi",
+            items: [
+              "Stok kalemlerini miktar ve birimle takip etme",
+              "Ürünleri bu kalemlerden oluşan reçetelerle bağlama",
+              "Satış kaydedildiğinde stoğun otomatik düşmesi, yetersiz stokta uyarı",
+              "Stok listesini Excel olarak dışa aktarma",
+            ],
+          },
+          {
+            title: "Marka kimliği",
+            items: [
+              "Renk paleti (ana, ikincil, arka plan, yazı, vurgu vb.) ve başlık/yazı fontu seçimi",
+              "Renklerin okunabilirliği için kontrast kontrolü",
+              "Önceki tasarıma tek tıkla geri dönme",
+            ],
+          },
+          {
+            title: "Toplu işlemler",
+            items: [
+              "Ürün, kategori, alerjen ve stok için hazır Excel şablonları",
+              "Menüyü Excel'den tek seferde içe aktarma",
+            ],
+          },
         ],
-        live: false,
+        live: true,
         linkUrl: "",
+        links: [
+          { label: "Menüyü Görüntüle", url: "https://restaurant-qr-menu-two.vercel.app/qr-menu" },
+          { label: "Yönetim Paneli", url: "https://restaurant-qr-menu-two.vercel.app/qr-menu/business" },
+        ],
         tags: [
           "QR Code",
           "Admin Panel",
@@ -914,24 +1123,137 @@ export const servicesTranslations = {
         ],
       },
       {
-        name: "Kişisel Web Sitesi Tasarımı (İnteraktif ve Profesyonel)",
+        name: "3D ve İnteraktif E-Ticaret Sitesi Tasarımı",
         description:
-          "Kim olduğunuzu ve ne yaptığınızı en iyi şekilde anlatan, size özel tasarlanmış kişisel web sitesi. İster sade ve profesyonel, ister interaktif ve dikkat çekici bir deneyim isteyin; kişiliğinizi yansıtan ve güçlü bir ilk izlenim bırakan bir site geliştiriyorum.",
-        features: [
-          "Tarzınıza göre profesyonel veya interaktif tasarım",
-          "Hızlı, modern ve her cihazda tamamen uyumlu yapı",
-          "Hakkımda, projeler, deneyim ve iletişim bölümleri",
-          "Akıcı animasyonlar ve etkileyici etkileşimler",
-          "Arama motorlarında daha iyi görünürlük için SEO dostu yapı",
-          "Çoklu dil desteği ve indirilebilir özgeçmiş entegrasyonu",
+          "Ürününüzü fotoğraf galerisine hapsetmeyin. Müşteriniz ürünü tarayıcıda 3D olarak döndürsün, her açıdan incelesin, rengini anında değiştirsin ve aynı sayfadan sepete eklesin. Markanıza özel, akıcı ve akılda kalan bir alışveriş deneyimi tasarlıyor ve kodluyorum.",
+        features: [],
+        featureGroups: [
+          {
+            title: "Müşteri tarafı",
+            items: [
+              "Gerçek zamanlı 3D ürün görüntüleme: sürükleyerek çevirme, her açıdan inceleme",
+              "Kaydırmaya duyarlı sahneler: sayfa aşağı indikçe ürün kendiliğinden dönüp yaklaşır, detay, taban ve renk bölümlerinde farklı bir poz alır",
+              "Ürünü hiç yeniden yüklemeden anlık renk seçimi, sayfa arka planı ve yazı renkleri de seçilen renge göre değişir",
+              "Kategori seçimi (ör. erkek/kadın) ve ona göre değişen model, metin ve ürün listesi",
+              "Beden seçimi, sepete ekleme, sepet çekmecesi, adet değiştirme ve toplam tutar",
+              "Ürün özellikleri, öne çıkan detaylar ve teknik bilgiler için sahneyle uyumlu bölümler",
+              "İndirimli fiyat gösterimi ve ürün kartlarından oluşan katalog",
+              "Yumuşak kaydırma (smooth scroll) ve sayfa geçişlerinde akıcı animasyonlar",
+              "Telefon, tablet ve bilgisayarda uyumlu (responsive) tasarım",
+              "Klavye ve ekran okuyucu desteği gibi erişilebilirlik detayları",
+            ],
+          },
+          {
+            title: "Marka kimliği",
+            items: [
+              "Renk paleti, tipografi ve sayfa atmosferi markanıza göre baştan tasarlanır",
+              "Her ürün rengi için ayrı sahne renkleri",
+              "Şablon kullanmadan, ürününüze özel kurgulanmış sayfa akışı",
+            ],
+          },
+          {
+            title: "Teknik altyapı",
+            items: [
+              "Next.js, React, Three.js ve React Three Fiber ile modern, hızlı ve geliştirilebilir yapı",
+              "Ürün modelinizin (GLB/3D dosyası) siteye uygun şekilde hazırlanması ve optimize edilmesi",
+              "Hazır 3D modeliniz yoksa, ürün fotoğraflarından veya tasarım dosyalarından modelleme yönlendirmesi",
+              "Hızlı yüklenme için görsel ve model optimizasyonu",
+            ],
+          },
+          {
+            title: "İhtiyaca göre eklenebilecekler",
+            items: [
+              "Ödeme altyapısı entegrasyonu",
+              "Ürün, stok ve sipariş yönetim paneli",
+              "Çoklu dil ve para birimi",
+              "Ürün ekleme ve düzenleme için içerik yönetim sistemi",
+            ],
+          },
+          {
+            title: "Kimler için uygun?",
+            items: [
+              "Ayakkabı, saat, mobilya, elektronik, aksesuar gibi şekli, dokusu ve detayları satışı etkileyen ürünler satan markalar için. Rakiplerinizden ilk saniyede ayrışmak ve ürününüzü \"gezdirerek\" anlatmak istiyorsanız bu hizmet tam size göre.",
+            ],
+          },
         ],
-        live: false,
-        linkUrl: "",
+        live: true,
+        linkUrl: "https://marketing-omega-ten-91.vercel.app",
+        tags: [
+          "Next.js",
+          "React",
+          "Three.js",
+          "React Three Fiber",
+          "3D",
+          "E-Commerce",
+        ],
+      },
+      {
+        name: "İşletmenize Özel İnteraktif Tanıtım Sayfası",
+        description:
+          "İşletmenizi internette ilk gören kişi, daha mekâna gelmeden size dair bir fikir edinir. Ben de işletmeler için modern, interaktif ve markanıza özel tanıtım sayfaları tasarlıyorum. Sayfa sıradan bir bilgi sayfası olmaz. Ziyaretçiyi ilk saniyeden içine çeker ve işletmenizi akılda kalıcı kılar.",
+        features: [],
+        featureGroups: [
+          {
+            title: "Ziyaretçi deneyimi",
+            items: [
+              "Sayfa kaydırdıkça hareket eden, canlı ve akıcı animasyonlarla açılır.",
+              "Ürünlerinizi, hizmetlerinizi ve güçlü yanlarınızı görsel ağırlıklı, anlaşılır bölümlerle sunar.",
+              "Telefon, tablet ve bilgisayarda sorunsuz çalışır.",
+              "Adres, çalışma saatleri ve telefon bilgisine tek dokunuşla ulaşılır. Haritada yol tarifi alınır, telefonla arama yapılır.",
+              "İsterseniz QR menü ve sosyal medya bağlantıları da sayfaya eklenir.",
+            ],
+          },
+          {
+            title: "İşletmenize özel",
+            items: [
+              "Renkler, görseller, metinler ve içerik markanıza göre baştan tasarlanır.",
+              "İşletme bilgileriniz tek yerden yönetilir ve sayfanın her bölümüne yansır.",
+              "Sektörünüze göre uyarlanır: restoran, kafe, kuaför, butik, ofis ve daha fazlası.",
+            ],
+          },
+          {
+            title: "Nasıl çalışıyoruz",
+            items: [
+              "İşletmenizi, hedef kitlenizi ve ihtiyaçlarınızı dinlerim.",
+              "Markanıza uygun tasarımı hazırlarım.",
+              "Onayınızla sayfayı yayına alırım.",
+            ],
+          },
+        ],
+        note: "Not: Burada gösterdiğim çalışma bir prototiptir. Tasarım dilini, animasyonları ve sayfa akışını gösterir. Nihai sayfa, sizin içerik, görsel ve ihtiyaçlarınıza göre şekillenir.",
+        live: true,
+        linkUrl: "https://interactive-business-project.vercel.app",
         tags: [
           "Next.js",
           "TypeScript",
           "Custom Design",
           "Animations",
+          "SEO",
+          "Responsive Design",
+        ],
+      },
+      {
+        name: "Markanıza Özel, Profesyonel İşletme Sitesi",
+        description:
+          "Menünüz kadar işletmenizin kendisi de çevrimiçi iyi görünmeli. Restoran, kafe, fırın, pastane ve tüm yiyecek-içecek işletmeleri için, marka kimliğinize göre şekillenen modern bir tanıtım sayfası hazırlıyoruz. Gördüğünüz sayfa bir örnektir. İçerik, renk ve bölümler işletmenize göre baştan kurulabilir.",
+        features: [
+          "Size özel görünüm: Renkler, yazı tipleri ve logo markanıza uyarlanır. Sayfa sizin işletmenizin sayfası gibi görünür.",
+          "Güçlü bir ilk izlenim: Etkileyici bir başlık, kısa bir tanıtım metni ve doğrudan menüye ya da iletişime yönlendiren butonlarla ziyaretçi ilk ekranda ne sunduğunuzu anlar.",
+          "Hikâyenizi anlatan bölümler: İşletmenizi öne çıkaran yönleri (kalite, hizmet, deneyim gibi), öne çıkan ürünleri ve çalışma şeklinizi anlatan bölümler eklenir. Hangi bölümlerin olacağı işletmeye göre belirlenir.",
+          "QR menü ile bağlantılı: Ziyaretçi, sayfadan tek tıkla güncel dijital menünüze geçebilir.",
+          "Kolay ulaşım: Adres, çalışma saatleri, telefon, e-posta ve sosyal medya hesapları net biçimde yer alır. Müşteri tek dokunuşla arayabilir veya yol tarifi alabilir.",
+          "Her cihazda uyumlu: Telefon, tablet ve bilgisayarda düzgün çalışır, mobilde kullanımı kolay bir menüye sahiptir.",
+          "Hızlı ve düzenli: Sayfa hızlı açılır, bilgileriniz değiştiğinde güncel kalır.",
+          "Esnek yapı: Bölümler eklenebilir, çıkarılabilir veya yeniden düzenlenebilir. Bu örnek, sizin için hazırlanacak sayfanın nasıl görüneceğini gösteren bir başlangıç noktasıdır.",
+        ],
+        note: "Sonuç: Müşterileriniz sizi bulur, güvenir, menünüzü inceler ve size kolayca ulaşır. Hepsi markanızın diliyle hazırlanmış tek bir sayfada.",
+        live: true,
+        linkUrl: "https://restaurant-qr-menu-two.vercel.app",
+        tags: [
+          "Next.js",
+          "Custom Design",
+          "Brand Identity",
+          "QR Menu Integration",
           "SEO",
           "Responsive Design",
         ],
