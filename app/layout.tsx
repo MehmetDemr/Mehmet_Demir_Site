@@ -15,22 +15,53 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Mehmet Demir | Full-Stack Developer",
+  metadataBase: new URL("https://cengmehmetdemir.com"),
+  title: "Mehmet Demir | Bilgisayar Mühendisi & Full Stack Yazılım Geliştirici – İzmir, Türkiye",
   description:
-    "Full-Stack Developer focused on scalable backend systems, modern frontend architectures, and high-performance web applications.",
-  alternates: {
-    canonical: "https://cengmehmetdemir.com",
-    languages: {
-      en: "https://cengmehmetdemir.com",
-      tr: "https://cengmehmetdemir.com",
-      de: "https://cengmehmetdemir.com",
-      ru: "https://cengmehmetdemir.com",
-      es: "https://cengmehmetdemir.com",
-      fr: "https://cengmehmetdemir.com",
-      pl: "https://cengmehmetdemir.com",
-      it: "https://cengmehmetdemir.com",
-    },
+    "Mehmet Demir, İzmir merkezli bilgisayar mühendisi ve full stack yazılım geliştiricisidir. Next.js, TypeScript ile web sitesi, QR menü ve e-ticaret çözümleri geliştirir.",
+  keywords: [
+    "Mehmet Demir",
+    "bilgisayar mühendisi Mehmet Demir",
+    "Ceng Mehmet Demir",
+    "full stack developer Mehmet Demir",
+    "full stack geliştirici Mehmet Demir",
+    "Türkiye bilgisayar mühendisi",
+    "Türkiye yazılım",
+    "İzmir yazılım",
+    "İzmir bilgisayar mühendisi",
+    "İzmir web yazılım",
+    "yazılım geliştirici",
+  ],
+  authors: [{ name: "Mehmet Demir", url: "https://cengmehmetdemir.com" }],
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    url: "https://cengmehmetdemir.com",
+    siteName: "Mehmet Demir",
+    locale: "tr_TR",
+    title: "Mehmet Demir | Bilgisayar Mühendisi & Full Stack Yazılım Geliştirici",
+    description:
+      "İzmir merkezli bilgisayar mühendisi ve full stack yazılım geliştiricisi Mehmet Demir'in portfolyosu ve hizmetleri.",
   },
+};
+
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Mehmet Demir",
+  url: "https://cengmehmetdemir.com",
+  jobTitle: "Bilgisayar Mühendisi ve Full Stack Yazılım Geliştirici",
+  alternateName: ["Ceng Mehmet Demir", "Mehmet Demir Full Stack Developer"],
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "İzmir",
+    addressCountry: "TR",
+  },
+  knowsAbout: ["Full Stack Development", "Next.js", "TypeScript", "Web Yazılım"],
+  sameAs: [
+    "https://github.com/MehmetDemr",
+    "https://linkedin.com/in/mehmet-demir-",
+  ],
 };
 
 export default function RootLayout({
@@ -39,8 +70,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="tr">
       <body className={`${inter.variable} ${playfair.variable}`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
         <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
