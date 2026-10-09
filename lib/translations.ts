@@ -1036,6 +1036,72 @@ export const servicesTranslations = {
           "Responsive Design",
         ],
       },
+      {
+        name: "Tourism Agency Website with a 3D Route Experience",
+        description:
+          "A sample website designed for a travel agency that runs small-group tours. Instead of reading tours in a flat list, visitors travel between each route's stops in 3D, then pick a date and send their booking request in a single step.",
+        features: [],
+        featureGroups: [
+          {
+            title: "Home page",
+            items: [
+              "Six tours sit on a rotating ring, each as a miniature island. Visitors can drag the ring, click an island, or use the arrows to pick a tour.",
+              "A tour card that changes with the selected tour: region, duration, short summary, stop timeline, next departure date, and price per person.",
+              "Pressing \"Explore the route in 3D\" makes the camera dive into the island and rise into the sky, and the route page opens with this transition.",
+              "The page also includes a list of upcoming departures, \"How we travel\" principles, and an About section with the story, key figures, and a timeline.",
+            ],
+          },
+          {
+            title: "3D route pages",
+            items: [
+              "Izmir & Ephesus, Cappadocia, Istanbul, Pamukkale & Hierapolis, the Black Sea Highlands, and the Lycian Coast: 35 stops across six routes.",
+              "As the page scrolls, the camera flies from stop to stop. The sky shifts from dawn to night following the route's daily flow, and windows and lanterns light up at night.",
+              "Each stop has a model of the place: the Clock Tower, Ephesus, balloons and fairy chimneys, Galata, the travertines, Sümela, Kekova, and more.",
+              "Models can be rotated by dragging. Visitors can jump straight to any stop from the stop list on the side.",
+              "Stop cards show the day and time, a description, quick facts, and a \"Seyyah note\".",
+              "At the end of the page, the day-by-day program and what is and isn't included in the price are listed.",
+            ],
+          },
+          {
+            title: "Booking",
+            items: [
+              "A ticket-style form: pick a departure date, increase the number of people up to the group limit, and the total price is calculated instantly.",
+              "When the form is submitted, a ready-made request message opens in the visitor's email app. For tours that are out of season, a pre-registration is taken instead.",
+              "Every page ends with a contact strip reachable by phone and email.",
+            ],
+          },
+          {
+            title: "Design & usability",
+            items: [
+              "Responsive design for phones, tablets, and computers. On mobile there's a full-screen menu, with the routes shown as a dropdown list.",
+              "The header sits transparently over the 3D scene and switches to a frosted-glass look on scroll.",
+              "Menu links use slowed-down, smooth scrolling. The ring around the \"back to top\" button in the bottom right shows how much of the page has been read.",
+              "The color palette is taken from Alaçatı: whitewash white, shutter blue, and bougainvillea pink. The logo and favicon are custom-made for the brand.",
+              "Accessibility: keyboard navigation, screen reader labels, a \"skip to content\" link, and support for the operating system's \"reduce motion\" setting.",
+              "If the browser doesn't support 3D, the site keeps working as a regular page.",
+            ],
+          },
+          {
+            title: "Performance",
+            items: [
+              "No 3D models are loaded as external files; they are all generated in code, and each model is merged into just a few draw calls.",
+              "3D scenes load after the page opens and pause when they're off screen.",
+              "On slower devices the rendering resolution adjusts automatically to keep things smooth.",
+            ],
+          },
+        ],
+        note: "Note: Seyyah is a fictional brand; the content and contact details are for demonstration only.",
+        live: true,
+        linkUrl: "https://tourism-city-promotion-page.vercel.app",
+        tags: [
+          "3D",
+          "Tourism",
+          "Booking Form",
+          "Accessibility",
+          "Performance",
+          "Responsive Design",
+        ],
+      },
     ],
   },
   tr: {
@@ -1255,6 +1321,72 @@ export const servicesTranslations = {
           "Brand Identity",
           "QR Menu Integration",
           "SEO",
+          "Responsive Design",
+        ],
+      },
+      {
+        name: "3D Rota Deneyimli Turizm Acentesi Web Sitesi",
+        description:
+          "Küçük gruplarla tur düzenleyen bir seyahat acentesi için tasarlanmış örnek bir web sitesi. Ziyaretçiler turları düz bir listede okumak yerine her rotanın durakları arasında 3D olarak geziyor, sonra tarih seçip rezervasyon talebini tek adımda gönderiyor.",
+        features: [],
+        featureGroups: [
+          {
+            title: "Ana sayfa",
+            items: [
+              "Altı tur, dönen bir halkanın üzerinde birer minyatür ada olarak duruyor. Tur seçmek için halka sürüklenebiliyor, adaya tıklanabiliyor ya da oklar kullanılabiliyor.",
+              "Seçilen tura göre değişen bir tur kartı var: bölge, süre, kısa özet, durak çizgisi, sonraki kalkış tarihi ve kişi başı fiyat.",
+              "\"Rotayı 3D gez\" butonuna basınca kamera adaya dalıp gökyüzüne yükseliyor ve rota sayfası bu geçişle açılıyor.",
+              "Sayfada ayrıca yaklaşan kalkışlar listesi, \"Nasıl geziyoruz\" ilkeleri ve hikâye, rakamlar ile zaman çizelgesinden oluşan bir Hakkımızda bölümü bulunuyor.",
+            ],
+          },
+          {
+            title: "3D rota sayfaları",
+            items: [
+              "İzmir & Efes, Kapadokya, İstanbul, Pamukkale & Hierapolis, Karadeniz Yaylaları ve Likya Kıyıları: altı rotada toplam 35 durak.",
+              "Sayfa aşağı kaydırıldıkça kamera duraktan durağa uçuyor. Gökyüzü rotanın günlük akışına göre şafaktan geceye dönüyor, geceleri pencereler ve fenerler yanıyor.",
+              "Her durakta o yerin maketi var: Saat Kulesi, Efes, balonlar ve peribacaları, Galata, travertenler, Sümela, Kekova ve diğerleri.",
+              "Maketler sürüklenerek çevrilebiliyor. Kenardaki durak listesinden istenen durağa doğrudan atlanabiliyor.",
+              "Durak kartlarında gün ve saat, açıklama, kısa bilgiler ve bir \"Seyyah notu\" yer alıyor.",
+              "Sayfanın sonunda gün gün program ile fiyata dahil olan ve olmayan kalemler listeleniyor.",
+            ],
+          },
+          {
+            title: "Rezervasyon",
+            items: [
+              "Bilet görünümlü bir form: kalkış tarihi seçiliyor, kişi sayısı grup sınırına kadar artırılabiliyor ve toplam fiyat anında hesaplanıyor.",
+              "Form gönderilince ziyaretçinin e-posta uygulamasında hazır bir talep mesajı açılıyor. Sezonu kapalı turlarda bunun yerine ön kayıt alınıyor.",
+              "Her sayfanın altında telefon ve e-posta ile ulaşılabilen bir iletişim bandı var.",
+            ],
+          },
+          {
+            title: "Tasarım ve kullanılabilirlik",
+            items: [
+              "Telefon, tablet ve bilgisayarda uyumlu (responsive) tasarım. Mobilde tam ekran açılan bir menü var; rotalar bu menüde açılır bir liste olarak duruyor.",
+              "Header 3D sahnenin üzerinde şeffaf duruyor, sayfa kaydırılınca buzlu cam görünümüne geçiyor.",
+              "Menü linklerinde yavaşlatılmış, yumuşak kaydırma var. Sağ alttaki \"yukarı çık\" butonunun çevresindeki halka, sayfanın ne kadarının okunduğunu gösteriyor.",
+              "Renk paleti Alaçatı'dan alındı: badana beyazı, kepenk mavisi ve begonvil pembesi. Logo ve favicon da markaya özel.",
+              "Erişilebilirlik: klavyeyle gezinme, ekran okuyucu etiketleri, \"içeriğe geç\" bağlantısı ve işletim sistemindeki \"hareketi azalt\" ayarına uyum.",
+              "Tarayıcı 3D desteklemiyorsa site düz bir sayfa olarak çalışmaya devam ediyor.",
+            ],
+          },
+          {
+            title: "Performans",
+            items: [
+              "3D modeller dışarıdan dosya olarak yüklenmiyor; hepsi kodla üretiliyor ve her maket birkaç çizim çağrısına birleştiriliyor.",
+              "3D sahneler sayfa açıldıktan sonra yükleniyor ve ekranda görünmediklerinde duruyor.",
+              "Yavaş cihazlarda görüntü çözünürlüğü kendiliğinden ayarlanıyor, böylece akıcılık korunuyor.",
+            ],
+          },
+        ],
+        note: "Not: Seyyah hayali bir marka; içerik ve iletişim bilgileri örnek amaçlıdır.",
+        live: true,
+        linkUrl: "https://tourism-city-promotion-page.vercel.app",
+        tags: [
+          "3D",
+          "Tourism",
+          "Booking Form",
+          "Accessibility",
+          "Performance",
           "Responsive Design",
         ],
       },
