@@ -1029,7 +1029,7 @@ export const servicesTranslations = {
         ],
         note: "Result: Your customers find you, trust you, browse your menu, and reach you easily. All on a single page prepared in your brand's voice.",
         live: true,
-        linkUrl: "https://restaurant-qr-menu-two.vercel.app",
+        linkUrl: "https://dressify-shop.com",
         tags: [
           "Next.js",
           "Custom Design",
@@ -1323,7 +1323,7 @@ export const servicesTranslations = {
         ],
         note: "Sonuç: Müşterileriniz sizi bulur, güvenir, menünüzü inceler ve size kolayca ulaşır. Hepsi markanızın diliyle hazırlanmış tek bir sayfada.",
         live: true,
-        linkUrl: "https://restaurant-qr-menu-two.vercel.app",
+        linkUrl: "https://dressify-shop.com",
         tags: [
           "Next.js",
           "Custom Design",
