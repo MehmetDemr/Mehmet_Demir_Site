@@ -852,7 +852,7 @@ export const servicesTranslations = {
             title: "Admin panel",
             items: [
               "Separate, secure login for each business (email and password)",
-              "\"Forgot password\" flow: single-use, time-limited link sent by email",
+              '"Forgot password" flow: single-use, time-limited link sent by email',
               "Add, edit, delete, reorder, activate/deactivate, search, and paginate categories and products",
               "Per-product image, description, price, calories, preparation time, allergens, and ingredients",
               "Manage the allergen list",
@@ -888,8 +888,11 @@ export const servicesTranslations = {
         live: true,
         linkUrl: "",
         links: [
-          { label: "View Menu", url: "https://restaurant-qr-menu-two.vercel.app/qr-menu" },
-          { label: "Admin Panel", url: "https://restaurant-qr-menu-two.vercel.app/qr-menu/business" },
+          { label: "View Menu", url: "https://dressify-shop.com/qr-menu" },
+          {
+            label: "Admin Panel",
+            url: "https://dressify-shop.com/qr-menu/business",
+          },
         ],
         tags: [
           "QR Code",
@@ -950,7 +953,7 @@ export const servicesTranslations = {
           {
             title: "Who is it for?",
             items: [
-              "For brands selling products whose shape, texture, and details influence the sale, such as shoes, watches, furniture, electronics, and accessories. If you want to stand out from competitors in the first second and show your product by \"walking customers around it\", this service is for you.",
+              'For brands selling products whose shape, texture, and details influence the sale, such as shoes, watches, furniture, electronics, and accessories. If you want to stand out from competitors in the first second and show your product by "walking customers around it", this service is for you.',
             ],
           },
         ],
@@ -1047,8 +1050,8 @@ export const servicesTranslations = {
             items: [
               "Six tours sit on a rotating ring, each as a miniature island. Visitors can drag the ring, click an island, or use the arrows to pick a tour.",
               "A tour card that changes with the selected tour: region, duration, short summary, stop timeline, next departure date, and price per person.",
-              "Pressing \"Explore the route in 3D\" makes the camera dive into the island and rise into the sky, and the route page opens with this transition.",
-              "The page also includes a list of upcoming departures, \"How we travel\" principles, and an About section with the story, key figures, and a timeline.",
+              'Pressing "Explore the route in 3D" makes the camera dive into the island and rise into the sky, and the route page opens with this transition.',
+              'The page also includes a list of upcoming departures, "How we travel" principles, and an About section with the story, key figures, and a timeline.',
             ],
           },
           {
@@ -1058,7 +1061,7 @@ export const servicesTranslations = {
               "As the page scrolls, the camera flies from stop to stop. The sky shifts from dawn to night following the route's daily flow, and windows and lanterns light up at night.",
               "Each stop has a model of the place: the Clock Tower, Ephesus, balloons and fairy chimneys, Galata, the travertines, Sümela, Kekova, and more.",
               "Models can be rotated by dragging. Visitors can jump straight to any stop from the stop list on the side.",
-              "Stop cards show the day and time, a description, quick facts, and a \"Seyyah note\".",
+              'Stop cards show the day and time, a description, quick facts, and a "Seyyah note".',
               "At the end of the page, the day-by-day program and what is and isn't included in the price are listed.",
             ],
           },
@@ -1075,9 +1078,9 @@ export const servicesTranslations = {
             items: [
               "Responsive design for phones, tablets, and computers. On mobile there's a full-screen menu, with the routes shown as a dropdown list.",
               "The header sits transparently over the 3D scene and switches to a frosted-glass look on scroll.",
-              "Menu links use slowed-down, smooth scrolling. The ring around the \"back to top\" button in the bottom right shows how much of the page has been read.",
+              'Menu links use slowed-down, smooth scrolling. The ring around the "back to top" button in the bottom right shows how much of the page has been read.',
               "The color palette is taken from Alaçatı: whitewash white, shutter blue, and bougainvillea pink. The logo and favicon are custom-made for the brand.",
-              "Accessibility: keyboard navigation, screen reader labels, a \"skip to content\" link, and support for the operating system's \"reduce motion\" setting.",
+              'Accessibility: keyboard navigation, screen reader labels, a "skip to content" link, and support for the operating system\'s "reduce motion" setting.',
               "If the browser doesn't support 3D, the site keeps working as a regular page.",
             ],
           },
@@ -1140,7 +1143,7 @@ export const servicesTranslations = {
             title: "Yönetim paneli",
             items: [
               "Her işletmeye ait ayrı, güvenli giriş (e-posta ve şifre)",
-              "\"Şifremi unuttum\" akışı: e-postayla tek kullanımlık, süreli bağlantı",
+              '"Şifremi unuttum" akışı: e-postayla tek kullanımlık, süreli bağlantı',
               "Kategori ve ürün ekleme, düzenleme, silme, sıralama, aktif/pasif yapma, arama ve sayfalama",
               "Ürün başına görsel, açıklama, fiyat, kalori, hazırlanma süresi, alerjen ve içerik tanımlama",
               "Alerjen listesini yönetme",
@@ -1176,8 +1179,14 @@ export const servicesTranslations = {
         live: true,
         linkUrl: "",
         links: [
-          { label: "Menüyü Görüntüle", url: "https://restaurant-qr-menu-two.vercel.app/qr-menu" },
-          { label: "Yönetim Paneli", url: "https://restaurant-qr-menu-two.vercel.app/qr-menu/business" },
+          {
+            label: "Menüyü Görüntüle",
+            url: "https://dressify-shop.com/qr-menu",
+          },
+          {
+            label: "Yönetim Paneli",
+            url: "https://dressify-shop.com/qr-menu/business",
+          },
         ],
         tags: [
           "QR Code",
@@ -1238,7 +1247,7 @@ export const servicesTranslations = {
           {
             title: "Kimler için uygun?",
             items: [
-              "Ayakkabı, saat, mobilya, elektronik, aksesuar gibi şekli, dokusu ve detayları satışı etkileyen ürünler satan markalar için. Rakiplerinizden ilk saniyede ayrışmak ve ürününüzü \"gezdirerek\" anlatmak istiyorsanız bu hizmet tam size göre.",
+              'Ayakkabı, saat, mobilya, elektronik, aksesuar gibi şekli, dokusu ve detayları satışı etkileyen ürünler satan markalar için. Rakiplerinizden ilk saniyede ayrışmak ve ürününüzü "gezdirerek" anlatmak istiyorsanız bu hizmet tam size göre.',
             ],
           },
         ],
@@ -1335,8 +1344,8 @@ export const servicesTranslations = {
             items: [
               "Altı tur, dönen bir halkanın üzerinde birer minyatür ada olarak duruyor. Tur seçmek için halka sürüklenebiliyor, adaya tıklanabiliyor ya da oklar kullanılabiliyor.",
               "Seçilen tura göre değişen bir tur kartı var: bölge, süre, kısa özet, durak çizgisi, sonraki kalkış tarihi ve kişi başı fiyat.",
-              "\"Rotayı 3D gez\" butonuna basınca kamera adaya dalıp gökyüzüne yükseliyor ve rota sayfası bu geçişle açılıyor.",
-              "Sayfada ayrıca yaklaşan kalkışlar listesi, \"Nasıl geziyoruz\" ilkeleri ve hikâye, rakamlar ile zaman çizelgesinden oluşan bir Hakkımızda bölümü bulunuyor.",
+              '"Rotayı 3D gez" butonuna basınca kamera adaya dalıp gökyüzüne yükseliyor ve rota sayfası bu geçişle açılıyor.',
+              'Sayfada ayrıca yaklaşan kalkışlar listesi, "Nasıl geziyoruz" ilkeleri ve hikâye, rakamlar ile zaman çizelgesinden oluşan bir Hakkımızda bölümü bulunuyor.',
             ],
           },
           {
@@ -1346,7 +1355,7 @@ export const servicesTranslations = {
               "Sayfa aşağı kaydırıldıkça kamera duraktan durağa uçuyor. Gökyüzü rotanın günlük akışına göre şafaktan geceye dönüyor, geceleri pencereler ve fenerler yanıyor.",
               "Her durakta o yerin maketi var: Saat Kulesi, Efes, balonlar ve peribacaları, Galata, travertenler, Sümela, Kekova ve diğerleri.",
               "Maketler sürüklenerek çevrilebiliyor. Kenardaki durak listesinden istenen durağa doğrudan atlanabiliyor.",
-              "Durak kartlarında gün ve saat, açıklama, kısa bilgiler ve bir \"Seyyah notu\" yer alıyor.",
+              'Durak kartlarında gün ve saat, açıklama, kısa bilgiler ve bir "Seyyah notu" yer alıyor.',
               "Sayfanın sonunda gün gün program ile fiyata dahil olan ve olmayan kalemler listeleniyor.",
             ],
           },
@@ -1363,9 +1372,9 @@ export const servicesTranslations = {
             items: [
               "Telefon, tablet ve bilgisayarda uyumlu (responsive) tasarım. Mobilde tam ekran açılan bir menü var; rotalar bu menüde açılır bir liste olarak duruyor.",
               "Header 3D sahnenin üzerinde şeffaf duruyor, sayfa kaydırılınca buzlu cam görünümüne geçiyor.",
-              "Menü linklerinde yavaşlatılmış, yumuşak kaydırma var. Sağ alttaki \"yukarı çık\" butonunun çevresindeki halka, sayfanın ne kadarının okunduğunu gösteriyor.",
+              'Menü linklerinde yavaşlatılmış, yumuşak kaydırma var. Sağ alttaki "yukarı çık" butonunun çevresindeki halka, sayfanın ne kadarının okunduğunu gösteriyor.',
               "Renk paleti Alaçatı'dan alındı: badana beyazı, kepenk mavisi ve begonvil pembesi. Logo ve favicon da markaya özel.",
-              "Erişilebilirlik: klavyeyle gezinme, ekran okuyucu etiketleri, \"içeriğe geç\" bağlantısı ve işletim sistemindeki \"hareketi azalt\" ayarına uyum.",
+              'Erişilebilirlik: klavyeyle gezinme, ekran okuyucu etiketleri, "içeriğe geç" bağlantısı ve işletim sistemindeki "hareketi azalt" ayarına uyum.',
               "Tarayıcı 3D desteklemiyorsa site düz bir sayfa olarak çalışmaya devam ediyor.",
             ],
           },
