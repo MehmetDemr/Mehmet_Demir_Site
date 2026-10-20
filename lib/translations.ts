@@ -419,7 +419,7 @@ export const projectsTranslations = {
           "AWS deployment with EC2 (server), RDS (PostgreSQL), Amplify (frontend), Route 53 (DNS)",
         ],
         live: true,
-        liveUrl: "https://www.dressify-shop.com",
+        liveUrl: "https://dressify-shop.netlify.app",
         tags: [
           "React",
           "Node.js",
@@ -637,7 +637,7 @@ export const projectsTranslations = {
           "EC2 (sunucu), RDS (PostgreSQL), Amplify (frontend) ve Route 53 (DNS) ile AWS dağıtımı",
         ],
         live: true,
-        liveUrl: "https://www.dressify-shop.com",
+        liveUrl: "https://dressify-shop.netlify.app",
         tags: [
           "React",
           "Node.js",
