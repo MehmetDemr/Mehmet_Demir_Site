@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import styles from "./page.module.css";
 import Header from "../components/Header/header";
 import Footer from "../components/Footer/footer";
+import ContactForm from "../components/ContactForm/contactForm";
 import {
   PhoneCall,
   Book,
@@ -436,6 +437,8 @@ export default function Home() {
                 </a>
               </div>
             </div>
+
+            <ContactForm />
           </div>
         </section>
       </main>

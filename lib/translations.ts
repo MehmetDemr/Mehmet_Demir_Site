@@ -210,6 +210,28 @@ export const bodyTranslations = {
       email: "demirmehmet226648@gmail.com",
       linkedin: "LinkedIn",
       github: "GitHub",
+      form: {
+        title: "Send Me a Message",
+        description:
+          "Fill out the form and your message will land straight in my inbox. I usually reply within a day.",
+        name: "Full Name",
+        namePlaceholder: "Your name",
+        email: "Email",
+        emailPlaceholder: "you@example.com",
+        subject: "Subject",
+        subjectPlaceholder: "What is it about? (optional)",
+        message: "Message",
+        messagePlaceholder: "Tell me about your project or idea...",
+        submit: "Send Message",
+        sending: "Sending...",
+        success: "Thank you! Your message has been sent. I'll get back to you soon.",
+        errorInvalid:
+          "Please check the fields: name must be at least 2 characters, email must be valid and message at least 10 characters.",
+        errorRateLimited:
+          "You've sent too many messages. Please try again in a few minutes.",
+        errorServer:
+          "Something went wrong while sending your message. Please try again or email me directly.",
+      },
     },
   },
   tr: {
@@ -376,6 +398,28 @@ export const bodyTranslations = {
       email: "demirmehmet226648@gmail.com",
       linkedin: "LinkedIn",
       github: "GitHub",
+      form: {
+        title: "Bana Mesaj Gönderin",
+        description:
+          "Formu doldurun, mesajınız doğrudan e-posta kutuma ulaşsın. Genellikle bir gün içinde dönüş yapıyorum.",
+        name: "Ad Soyad",
+        namePlaceholder: "Adınız",
+        email: "E-posta",
+        emailPlaceholder: "ornek@mail.com",
+        subject: "Konu",
+        subjectPlaceholder: "Ne hakkında? (isteğe bağlı)",
+        message: "Mesaj",
+        messagePlaceholder: "Projenizden veya fikrinizden bahsedin...",
+        submit: "Mesajı Gönder",
+        sending: "Gönderiliyor...",
+        success: "Teşekkürler! Mesajınız iletildi, en kısa sürede dönüş yapacağım.",
+        errorInvalid:
+          "Lütfen alanları kontrol edin: ad en az 2 karakter, e-posta geçerli ve mesaj en az 10 karakter olmalı.",
+        errorRateLimited:
+          "Çok fazla mesaj gönderdiniz. Lütfen birkaç dakika sonra tekrar deneyin.",
+        errorServer:
+          "Mesaj gönderilirken bir sorun oluştu. Lütfen tekrar deneyin veya doğrudan e-posta atın.",
+      },
     },
   },
 } as const;
